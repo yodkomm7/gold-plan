@@ -1,14 +1,14 @@
 {
   "schema_version": "1.2",
-  "generated_at": "2026-09-29T09:50:00Z",
-  "valid_until": "2026-09-29T12:50:00Z",
+  "generated_at": "2026-09-30T02:45:00Z",
+  "valid_until": "2026-09-30T10:45:00Z",
   "symbol": "XAUUSD",
   "feed": "OANDA",
-  "reference_price": 4141.62,
+  "reference_price": 4176.70,
   "market_state": "range",
   "bias": "long",
-  "adx": 18.28,
-  "rsi": 36.878,
+  "adx": 19.641,
+  "rsi": 40.009,
   "smart_money": {
     "state": "accumulating",
     "cot_managed_money_net": 127389,
@@ -18,12 +18,28 @@
     "as_of": "COT 2026-09-22 / ETF ส.ค. 2026 / PBOC ส.ค. 2026"
   },
   "levels": {
-    "resistance": [4150.0, 4180.0, 4210.0],
-    "support": [4113.0, 4100.0, 4075.0]
+    "resistance": [4190.0, 4210.0, 4250.0],
+    "support": [4150.0, 4135.0, 4100.0]
   },
   "setups": [
     {
-      "id": "2026-09-29-buy-4100",
+      "id": "2026-09-30-buy-4135",
+      "direction": "buy",
+      "zone_low": 4129.0,
+      "zone_high": 4141.0,
+      "confirm": "h1_close_above",
+      "confirm_level": 4135.0,
+      "entry": 4135.0,
+      "stop_loss": 4108.0,
+      "tp1": 4157.0,
+      "tp2": 4185.0,
+      "risk_pct": 3.0,
+      "max_spread": 0.8,
+      "valid_until": "2026-09-30T11:45:00Z",
+      "note": "ตามเงินใหญ่ (accumulating) - รับที่ HMA9 4134.8 (สัญญาณ Buy ตัวเดียวในกลุ่ม MA) SL 4108 ใต้ Low วาน 4113 TP2 4185 R:R 1.85 ห่างราคา ~42 จุด"
+    },
+    {
+      "id": "2026-09-30-buy-4100",
       "direction": "buy",
       "zone_low": 4094.0,
       "zone_high": 4106.0,
@@ -35,61 +51,45 @@
       "tp2": 4152.0,
       "risk_pct": 3.0,
       "max_spread": 0.8,
-      "valid_until": "2026-09-29T16:50:00Z",
-      "note": "ตามเงินใหญ่ (accumulating) - รับที่เลขกลม 4100 ใต้ Low วัน 4113.485 SL 4072 TP2 4152 R:R 1.86 คงระดับเดิมต่อเนื่องรอบที่ 6 เตือน: MA รายวัน Strong sell 14/15 ราคาต่ำกว่า MA ทุกเส้น เป็นการรับมีดร่วง"
+      "valid_until": "2026-09-30T11:45:00Z",
+      "note": "ตามเงินใหญ่ - ไม้รองลึก เลขกลม 4100 ระดับเดียวกับเมื่อวาน SL 4072 TP2 4152 R:R 1.86 เผื่อร่วงหลุด Low วาน"
     },
     {
-      "id": "2026-09-29-buy-4075",
-      "direction": "buy",
-      "zone_low": 4069.0,
-      "zone_high": 4081.0,
-      "confirm": "h1_close_above",
-      "confirm_level": 4075.0,
-      "entry": 4075.0,
-      "stop_loss": 4048.0,
-      "tp1": 4097.0,
-      "tp2": 4125.0,
-      "risk_pct": 3.0,
-      "max_spread": 0.8,
-      "valid_until": "2026-09-29T16:50:00Z",
-      "note": "ตามเงินใหญ่ - ไม้รองลึก 4075 SL 4048 TP2 4125 R:R 1.85 คงระดับเดิม เผื่อร่วงต่อจากแรงเทขาย"
-    },
-    {
-      "id": "2026-09-29-sell-4150",
+      "id": "2026-09-30-sell-4210",
       "direction": "sell",
-      "zone_low": 4144.0,
-      "zone_high": 4156.0,
+      "zone_low": 4204.0,
+      "zone_high": 4216.0,
       "confirm": "h1_close_below",
-      "confirm_level": 4150.0,
-      "entry": 4150.0,
-      "stop_loss": 4178.0,
-      "tp1": 4128.0,
-      "tp2": 4098.0,
+      "confirm_level": 4210.0,
+      "entry": 4210.0,
+      "stop_loss": 4238.0,
+      "tp1": 4188.0,
+      "tp2": 4158.0,
       "risk_pct": 1.5,
       "max_spread": 0.8,
-      "valid_until": "2026-09-29T16:50:00Z",
-      "note": "สวนเงินใหญ่แต่ตามเทคนิค - ขายที่ HMA9 4152.670 + เลขกลม 4150 ใกล้ High วัน 4149.035 SL 4178 TP2 4098 R:R 1.86 น้ำหนักครึ่งเดียวตามกฎเพราะเงินใหญ่ยังสะสม ราคาห่างโซน 8.4 จุด"
+      "valid_until": "2026-09-30T11:45:00Z",
+      "note": "สวนเงินใหญ่แต่ตามเทรนด์รายวัน - แนวต้านใหญ่เลขกลม 4210 ใต้ EMA10 4248 SL 4238 TP2 4158 R:R 1.86 น้ำหนักครึ่งเดียวตามกฎ"
     }
   ],
   "news_blackout": [
     {
-      "from": "2026-09-29T12:40:00Z",
-      "to": "2026-09-29T13:20:00Z",
-      "label": "Redbook YoY + Case-Shiller / House Price Index",
-      "impact": "low"
+      "from": "2026-09-30T12:00:00Z",
+      "to": "2026-09-30T13:00:00Z",
+      "label": "ADP Employment + Core PCE / PCE + GDP Q2 Final",
+      "impact": "high"
     },
     {
-      "from": "2026-09-29T13:45:00Z",
-      "to": "2026-09-29T14:45:00Z",
-      "label": "JOLTs Job Openings + CB Consumer Confidence + Dallas Fed Services",
+      "from": "2026-09-30T13:35:00Z",
+      "to": "2026-09-30T14:05:00Z",
+      "label": "Chicago PMI",
       "impact": "medium"
     },
     {
-      "from": "2026-09-29T16:45:00Z",
-      "to": "2026-09-29T18:30:00Z",
-      "label": "Fed Goolsbee + Musalem + Williams Speeches",
+      "from": "2026-09-30T17:20:00Z",
+      "to": "2026-09-30T17:50:00Z",
+      "label": "Fed Barkin Speech",
       "impact": "medium"
     }
   ],
-  "notes": "ระดับเดิมทั้ง 3 ไม้ ไม่เปลี่ยน อัปเดตเวลาอย่างเดียว ราคา 4141.620 +26.635 (+0.65%) จาก 4140.245 รอบก่อน Previous close 4114.985 Open 4121.355 กรอบวัน 4113.485-4149.035 เท่าเดิม ADX 18.280 เท่าเดิม (<20 = เทรดในกรอบ) RSI 36.878 (จาก 36.718) Summary Sell (Sell 15 / Neutral 8 / Buy 3) MA Strong sell 14/15 HMA9 4152.670 (จาก 4152.126 ขยับขึ้น 0.5 ยังอยู่ในโซน 4150) EMA10 4256.822 ห่าง 115 จุด ไม่มี MA cluster ใกล้ราคา จึงคงเลขกลม 4100/4075 เป็นแนวรับ 4150 เป็นแนวต้าน id ทั้ง 3 เหมือนรอบก่อน EA จะไม่แตะ pending ที่วางไว้ เงินใหญ่: ใช้บล็อกเดิมจากรอบ 06:xx (COT 22 ก.ย. MM net 127,389 w/w -5,727 อยู่โซนปกติ 50k-200k ไม่ต้องลดฝั่งซื้อ / ETF ส.ค. +US$18bn / PBOC เดือนที่ 22) สรุป accumulating น้ำหนักซื้อ 3.0 ขาย 1.5 ย้ำ: เงินใหญ่เป็นข้อมูลเก่า 1-5 สัปดาห์ ก่อน/ระหว่างการร่วง -10.01% ใน 1 เดือน และขัดกับเทคนิคที่เป็นขาลงชัดเจน ไม้ซื้อทั้งสองคือสวนเทรนด์ ความเสี่ยงสูง ข่าว 12 ชม.: ไม่มีระดับ high (low 12:55Z Redbook+Case-Shiller, medium 14:00-14:30Z JOLTs+Consumer Confidence+Dallas Fed, medium 17:00-18:00Z Fed Goolsbee/Musalem/Williams) นอกกรอบ 12 ชม. แต่ควรรู้: พรุ่งนี้ 30 ก.ย. 12:15Z ADP + 12:30Z Core PCE/GDP Final (high) ข่าว high ถัดไปในปฏิทินหลัก NFP 2 ต.ค. 08:30 ET"
+  "notes": "สร้างด้วยมือ (งานรายชั่วโมงถูกพัก) แผนนี้อายุ 8 ชม. ถึง 17:45 น. ไทย setup หมดอายุ 18:45 น. ก่อนข่าว PCE ราคา OANDA 4176.70 (-0.13%) Previous close 4181.985 กรอบวัน 4167.3-4187.7 เมื่อวานเด้งจาก 4113 ขึ้นมาปิด 4182 ADX 19.64 (<20 เทรดในกรอบ) RSI 40.0 Summary Sell (14/8/4) MA Strong sell 13/15 ราคายังต่ำกว่า MA รายวันเกือบทุกเส้น EMA10 4248 HMA9 4134.8 เงินใหญ่ใช้บล็อกเดิม (COT 22 ก.ย.) accumulating น้ำหนักซื้อ 3.0 ขาย 1.5 ไม้ซื้อเป็นการสวนเทรนด์รายวัน ข่าวสำคัญ: 19:15-19:30 น. ไทย ADP + Core PCE + GDP (high) NFP 2 ต.ค. 19:30 น. ไทย จำลองบน demo ไม่ใช่คำแนะนำการลงทุน"
 }
