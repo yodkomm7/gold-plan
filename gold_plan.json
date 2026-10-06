@@ -1,14 +1,14 @@
 {
   "schema_version": "1.2",
-  "generated_at": "2026-10-06T09:40:00Z",
-  "valid_until": "2026-10-06T12:40:00Z",
+  "generated_at": "2026-10-06T10:45:00Z",
+  "valid_until": "2026-10-06T13:45:00Z",
   "symbol": "XAUUSD",
   "feed": "OANDA",
-  "reference_price": 4154.785,
+  "reference_price": 4158.215,
   "market_state": "range",
   "bias": "neutral",
-  "adx": 20.174,
-  "rsi": 39.938,
+  "adx": 20.17,
+  "rsi": 40.24,
   "smart_money": {
     "state": "accumulating",
     "cot_managed_money_net": 120318,
@@ -19,7 +19,7 @@
   },
   "levels": {
     "resistance": [
-      4191.37,
+      4191.68,
       4193.81,
       4230.48
     ],
@@ -43,8 +43,8 @@
       "tp2": 4166.0,
       "risk_pct": 3.0,
       "max_spread": 0.8,
-      "valid_until": "2026-10-06T16:40:00Z",
-      "note": "คงราคาเดิม Camarilla S1 4120.463 ไม่ขยับทุกรอบ ราคาขึ้นต่อเป็น 4154.785 ห่างโซน 35 จุด SL 4094 ไม่ถูกแตะ ตามเงินใหญ่ accumulating น้ำหนักเต็ม 3.0 R:R 1.77 SL 26"
+      "valid_until": "2026-10-06T17:45:00Z",
+      "note": "คงราคาเดิมรอบที่ 4 Camarilla S1 4120.46 เท่าเดิมทุกตัว ราคาขึ้นต่อเป็น 4158.215 ห่างโซน 38 จุด SL 4094 ไม่ถูกแตะ ตามเงินใหญ่ accumulating น้ำหนักเต็ม 3.0 R:R 1.77 SL 26"
     },
     {
       "id": "2026-10-06-buy-4105",
@@ -59,8 +59,8 @@
       "tp2": 4152.0,
       "risk_pct": 3.0,
       "max_spread": 0.8,
-      "valid_until": "2026-10-06T16:40:00Z",
-      "note": "คงราคาเดิม Fibonacci S1 4106.822 เท่าเดิม เป็นจุดที่ Low วันนี้ 4103.515 เด้งกลับจริง SL 4080 ใต้ Camarilla S2 4083.791 ตามเงินใหญ่ น้ำหนักเต็ม 3.0 R:R 1.77 SL 26"
+      "valid_until": "2026-10-06T17:45:00Z",
+      "note": "คงราคาเดิม Fibonacci S1 4106.82 เท่าเดิม เป็นจุดที่ Low วันนี้ 4103.515 เด้งกลับจริง SL 4080 ใต้ Camarilla S2 4083.79 ตามเงินใหญ่ น้ำหนักเต็ม 3.0 R:R 1.77 SL 26"
     },
     {
       "id": "2026-10-06-sell-4190",
@@ -75,17 +75,11 @@
       "tp2": 4143.0,
       "risk_pct": 1.5,
       "max_spread": 0.8,
-      "valid_until": "2026-10-06T16:40:00Z",
-      "note": "คงราคาเดิม คลัสเตอร์ SMA10 4191.37 EMA10 4193.52 + Camarilla R1 4193.807 (ขยับขึ้นแค่ 0.6-1.1 จุด ไม่ถึงเกณฑ์) SL 4216 เหนือโซน สวนเงินใหญ่จึงใช้น้ำหนักครึ่ง 1.5 R:R 1.81 SL 26"
+      "valid_until": "2026-10-06T17:45:00Z",
+      "note": "คงราคาเดิม คลัสเตอร์ SMA10 4191.68 EMA10 4194.08 + Camarilla R1 4193.81 (ขยับขึ้นแค่ 0.3-0.6 จุด ไม่ถึงเกณฑ์ 5 จุด) SL 4216 เหนือโซน สวนเงินใหญ่จึงใช้น้ำหนักครึ่ง 1.5 R:R 1.81 SL 26"
     }
   ],
   "news_blackout": [
-    {
-      "from": "2026-10-06T09:45:00Z",
-      "to": "2026-10-06T10:15:00Z",
-      "label": "LMI Logistics Managers Index SEP",
-      "impact": "low"
-    },
     {
       "from": "2026-10-06T12:00:00Z",
       "to": "2026-10-06T12:30:00Z",
@@ -129,6 +123,12 @@
       "impact": "low"
     },
     {
+      "from": "2026-10-06T15:45:00Z",
+      "to": "2026-10-06T16:15:00Z",
+      "label": "EIA Short-Term Energy Outlook",
+      "impact": "low"
+    },
+    {
       "from": "2026-10-06T16:45:00Z",
       "to": "2026-10-06T17:15:00Z",
       "label": "3-Year Note Auction",
@@ -139,7 +139,13 @@
       "to": "2026-10-06T20:45:00Z",
       "label": "API Crude Oil Stock Change OCT/02",
       "impact": "low"
+    },
+    {
+      "from": "2026-10-06T22:45:00Z",
+      "to": "2026-10-06T23:15:00Z",
+      "label": "Fed Logan Speech",
+      "impact": "medium"
     }
   ],
-  "notes": "รอบ 09:40Z ระดับเดิมทั้งชุด ไม่เปลี่ยน อัปเดตเวลาอย่างเดียว ราคา OANDA 4154.785 (+14.260 +0.34% จาก Previous close 4140.525) ขึ้นจากรอบ 08:50Z ที่ 4148.195 Open 4143.540 กรอบวันขยายเป็น 4103.515-4158.375 ทำ High ใหม่ของวัน ADX 20.174 ก้ำกึ่ง RSI 39.938 Stoch %K 12.64 ยังขายมากเกิน CCI -113.8 Buy MA Strong sell 13/1/1 Summary Sell 15/8/3 HMA9 4134.50 (ราคายืนเหนือ HMA9 แล้ว) Pivots เท่าเดิมทุกตัว MA ฝั่งต้าน SMA10 4191.37 EMA10 4193.52 ขยับขึ้นไม่ถึง 1 จุด คง setup ทั้ง 3 ตัวราคาเดิม id เดิม = EA ไม่ต้องแตะ pending ที่วางรออยู่ เงินใหญ่คัดลอกจากรอบ 06:50Z (COT/ETF/PBOC ออกสัปดาห์ละครั้ง) accumulating ฝั่งซื้อ 3.0 ฝั่งขาย 1.5 ข่าว 12 ชม.ข้างหน้าไม่มี high: Balance of Trade 12:30Z medium, Fed Williams 13:05Z medium, Fed Bowman 14:45Z medium ที่เหลือ low จุดใหญ่ถัดไป FOMC Minutes 7 ต.ค. 18:00Z, CPI 14 ต.ค., FOMC 28 ต.ค."
+  "notes": "รอบ 10:45Z ระดับเดิมทั้งชุด ไม่เปลี่ยน อัปเดตเวลาอย่างเดียว ราคา OANDA 4158.215 (+17.690 +0.43% จาก Previous close 4140.525) ขึ้นจากรอบ 09:40Z ที่ 4154.785 Open 4143.540 กรอบวัน 4103.515-4158.995 ทำ High ใหม่ของวันต่อเนื่อง ADX 20.17 ก้ำกึ่ง RSI 40.24 Stoch %K 12.99 ยังขายมากเกิน CCI -112.9 Buy Williams -81.6 Buy MA Strong sell 13/1/1 Summary Sell 14/8/4 HMA9 4135.42 ราคายืนเหนือ HMA9 Pivots เท่าเดิมทุกตัว MA ฝั่งต้าน SMA10 4191.68 EMA10 4194.08 ขยับขึ้นไม่ถึง 1 จุด คง setup ทั้ง 3 ตัวราคาเดิม id เดิม = EA ไม่ต้องแตะ pending ที่วางรออยู่ เงินใหญ่คัดลอกจากรอบ 06:50Z (COT/ETF/PBOC ออกสัปดาห์ละครั้ง) accumulating ฝั่งซื้อ 3.0 ฝั่งขาย 1.5 ข่าว 12 ชม.ข้างหน้าไม่มี high: Balance of Trade 12:30Z medium, Fed Williams 13:05Z medium, Fed Bowman 14:45Z medium, Fed Logan 23:00Z medium ที่เหลือ low จุดใหญ่ถัดไป CPI 14 ต.ค., FOMC 28 ต.ค."
 }
