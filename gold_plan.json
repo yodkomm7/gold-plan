@@ -1,14 +1,14 @@
 {
   "schema_version": "1.2",
-  "generated_at": "2026-10-07T10:50:00Z",
-  "valid_until": "2026-10-07T13:50:00Z",
+  "generated_at": "2026-10-07T11:40:00Z",
+  "valid_until": "2026-10-07T14:40:00Z",
   "symbol": "XAUUSD",
   "feed": "OANDA",
-  "reference_price": 4115.815,
+  "reference_price": 4119.31,
   "market_state": "range",
   "bias": "neutral",
   "adx": 20.465,
-  "rsi": 37.66,
+  "rsi": 37.855,
   "smart_money": {
     "state": "accumulating",
     "cot_managed_money_net": 120318,
@@ -18,7 +18,7 @@
     "as_of": "COT 2026-09-29 / ETF ส.ค. 2026 / PBOC ส.ค. 2026"
   },
   "levels": {
-    "resistance": [4180.8, 4193.81, 4230.48],
+    "resistance": [4181.38, 4193.81, 4230.48],
     "support": [4106.82, 4083.79, 4047.12]
   },
   "setups": [
@@ -35,8 +35,8 @@
       "tp2": 4152.0,
       "risk_pct": 3.0,
       "max_spread": 0.80,
-      "valid_until": "2026-10-07T16:50:00Z",
-      "note": "คงราคาเดิมรอบที่ 7 Fibonacci S1 4106.822 ไม่ขยับทั้งวัน Low ใหม่ 4109.230 ลงมาเฉียดแต่ยังไม่แตะ entry ห่างราคาตลาดเพียง 10 จุด เป็นไม้ที่มีโอกาสติดสูงสุดรอบนี้ SL 4080 ใต้ Cam S2 4083.79 ตามเงินใหญ่ accumulating น้ำหนักเต็ม 3.0 R:R 1.77 SL 26"
+      "valid_until": "2026-10-07T17:40:00Z",
+      "note": "คงราคาเดิมรอบที่ 8 Fibonacci S1 4106.822 ไม่ขยับทั้งวัน Low วัน 4109.230 ยังไม่ถูกทำลาย ราคาเด้งขึ้นจาก 4115.8 เป็น 4119.3 entry ห่างราคาตลาด 13 จุด ยังเป็นไม้ที่มีโอกาสติดสูงสุด SL 4080 ใต้ Cam S2 4083.79 ตามเงินใหญ่ accumulating น้ำหนักเต็ม 3.0 R:R 1.77 SL 26"
     },
     {
       "id": "2026-10-07-buy-4085",
@@ -51,8 +51,8 @@
       "tp2": 4131.0,
       "risk_pct": 3.0,
       "max_spread": 0.80,
-      "valid_until": "2026-10-07T16:50:00Z",
-      "note": "คงราคาเดิม ไม้ลึกรอ Camarilla S2 4083.791 แนวรับใหญ่ถัดไปใต้ Fib S1 ห่างราคาตลาด 31 จุด SL 4059 ใต้โซน ตามเงินใหญ่ accumulating 3.0 R:R 1.77 SL 26"
+      "valid_until": "2026-10-07T17:40:00Z",
+      "note": "คงราคาเดิม ไม้ลึกรอ Camarilla S2 4083.791 แนวรับใหญ่ถัดไปใต้ Fib S1 ห่างราคาตลาด 34 จุด SL 4059 ใต้โซน ตามเงินใหญ่ accumulating 3.0 R:R 1.77 SL 26"
     },
     {
       "id": "2026-10-07-sell-4190",
@@ -67,12 +67,11 @@
       "tp2": 4143.0,
       "risk_pct": 1.5,
       "max_spread": 0.80,
-      "valid_until": "2026-10-07T16:50:00Z",
-      "note": "คงราคาเดิม คลัสเตอร์ EMA10 4180.80 + Camarilla R1 4193.807 ยังคร่อม 4190 (SMA10 4175.15) EMA10 ขยับลงแค่ 0.5 จุดจากรอบก่อน ไม่พอให้ย้ายระดับ ราคาห่างโซนขาย 74 จุด SL 4216 เหนือโซน สวนเงินใหญ่จึงใช้น้ำหนักครึ่ง 1.5 R:R 1.81 SL 26"
+      "valid_until": "2026-10-07T17:40:00Z",
+      "note": "คงราคาเดิม คลัสเตอร์ EMA10 4181.38 + Camarilla R1 4193.807 ยังคร่อม 4190 (SMA10 4175.46) EMA10 ขยับขึ้น 0.6 จุดจากรอบก่อน ไม่พอให้ย้ายระดับ ราคาห่างโซนขาย 71 จุด SL 4216 เหนือโซน สวนเงินใหญ่จึงใช้น้ำหนักครึ่ง 1.5 R:R 1.81 SL 26"
     }
   ],
   "news_blackout": [
-    { "from": "2026-10-07T10:45:00Z", "to": "2026-10-07T11:15:00Z", "label": "MBA Mortgage Applications / 30-Year Rate OCT/02", "impact": "low" },
     { "from": "2026-10-07T12:45:00Z", "to": "2026-10-07T13:15:00Z", "label": "Used Car Prices MoM/YoY SEP", "impact": "low" },
     { "from": "2026-10-07T14:15:00Z", "to": "2026-10-07T14:45:00Z", "label": "EIA Crude Oil / Gasoline Stocks Change OCT/02", "impact": "low" },
     { "from": "2026-10-07T14:45:00Z", "to": "2026-10-07T15:15:00Z", "label": "Consumer Inflation Expectations SEP (NY Fed)", "impact": "low" },
@@ -80,5 +79,5 @@
     { "from": "2026-10-07T17:30:00Z", "to": "2026-10-07T18:30:00Z", "label": "FOMC Minutes", "impact": "high" },
     { "from": "2026-10-07T18:45:00Z", "to": "2026-10-07T19:15:00Z", "label": "Consumer Credit Change AUG", "impact": "low" }
   ],
-  "notes": "รอบ 10:xxZ ระดับเดิมทั้ง 3 setup ไม่เปลี่ยน id เดิม EA ไม่ต้องแตะ pending OANDA 4115.815 (-48.040 -1.15% จาก Previous close 4163.855) Open 4166.640 กรอบวันขยายลงเป็น 4109.230-4170.000 Low ใหม่ต่ำกว่ารอบก่อน 9 จุด ลงมาเฉียด entry 4106 แต่ยังไม่แตะ ADX 20.465 ค้างเท่าเดิมทั้งวัน ก้ำกึ่ง RSI 37.660 Stoch %K 11.653 CCI -105.65 Williams -95.69 AO -199.27 BBP -120.88 MACD -61.50 StochRSI 27.21 UO 42.51 Momentum -171.12 Buy ตัวเดียว MA Strong sell 14/1/0 Summary Strong sell 15/10/1 (แย่ลงจากรอบก่อนที่เป็น Sell) HMA9 4132.22 ราคายังอยู่ใต้ HMA9 16 จุด โมเมนตัมสั้นยังลง Pivots ไม่ขยับ (Cam S1 4120.46 Fib S1 4106.82 Cam S2 4083.79 Cam S3 4047.12 Cam R1 4193.81 R2 4230.48) EMA10 4180.80 SMA10 4175.15 ลงมา 0.5 จุด เงินใหญ่คัดลอกจากรอบ 06:50Z accumulating ฝั่งซื้อ 3.0 ฝั่งขาย 1.5 (COT 120k ยังไม่แออัด) ปฏิทินยืนยันซ้ำ: FOMC Minutes 18:00Z วันนี้ = high EA เลื่อน SL มาจุดเข้า + ลบ pending ทั้งหมด 17:30Z จุดใหญ่ถัดไป Jobless Claims 12:30Z พรุ่งนี้ CPI 14 ต.ค. FOMC 28 ต.ค."
+  "notes": "รอบ 11:xxZ ระดับเดิมทั้ง 3 setup ไม่เปลี่ยน id เดิม EA ไม่ต้องแตะ pending OANDA 4119.310 (-44.545 -1.07% จาก Previous close 4163.855) Open 4166.640 กรอบวัน 4109.230-4170.000 ไม่ขยายเพิ่ม ราคาเด้งขึ้น 3.5 จุดจากรอบก่อน ADX 20.465 ค้างเท่าเดิมทั้งวัน ก้ำกึ่ง RSI 37.855 ขยับขึ้นเล็กน้อย Stoch %K 12.011 CCI -104.87 Williams -94.61 AO -199.27 BBP -121.79 MACD -61.24 StochRSI 27.60 UO 42.99 Momentum -167.94 MA Strong sell 14/1/0 Summary Sell 15/9/2 (ดีขึ้นจากรอบก่อนที่เป็น Strong sell) HMA9 4133.17 ราคายังอยู่ใต้ HMA9 14 จุด Pivots ไม่ขยับ (Cam S1 4120.46 Fib S1 4106.82 Cam S2 4083.79 Cam S3 4047.12 Cam R1 4193.81 R2 4230.48) EMA10 4181.38 SMA10 4175.46 ขึ้น 0.6 จุด เงินใหญ่คัดลอกจากรอบ 06:50Z accumulating ฝั่งซื้อ 3.0 ฝั่งขาย 1.5 (COT 120k ยังไม่แออัด) ปฏิทินยืนยันซ้ำ: FOMC Minutes 18:00Z วันนี้ = high EA เลื่อน SL มาจุดเข้า + ลบ pending ทั้งหมด 17:30Z MBA ผ่านไปแล้วจึงตัดออกจาก blackout จุดใหญ่ถัดไป Jobless Claims 12:30Z พรุ่งนี้ (เกิน 12 ชม.) CPI 14 ต.ค. FOMC 28 ต.ค."
 }
