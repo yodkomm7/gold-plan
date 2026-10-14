@@ -1,33 +1,25 @@
 {
   "schema_version": "1.2",
-  "generated_at": "2026-10-14T07:40:57Z",
-  "valid_until": "2026-10-14T10:40:57Z",
+  "generated_at": "2026-10-14T08:41:13Z",
+  "valid_until": "2026-10-14T11:41:13Z",
   "symbol": "XAUUSD",
   "feed": "OANDA",
-  "reference_price": 4147.715,
+  "reference_price": 4144.600,
   "market_state": "range",
   "bias": "neutral",
   "adx": 18.993,
-  "rsi": 41.976,
+  "rsi": 41.750,
   "smart_money": {
     "state": "accumulating",
     "cot_managed_money_net": 110987,
     "cot_change_wow": -9331,
     "etf_flow_note": "ก.ย. 2026 ไหลเข้า US$10bn ทุกภูมิภาคเป็นบวก Q3 รวม ~US$31bn สูงสุดเป็นประวัติการณ์ ถือครอง +67t เป็น 4,256t AUM US$574bn",
     "central_bank_note": "PBOC ซื้อ 21 ตันใน ก.ย. มากสุดใน 3 ปี ต่อเนื่องเดือนที่ 23",
-    "as_of": "COT 2026-10-06 (ยืนยันรอบ 06Z 14 ต.ค. ยังไม่มีชุดใหม่ ชุดถัดไป 16 ต.ค.) / ETF ก.ย. 2026 / PBOC ก.ย. 2026"
+    "as_of": "COT 2026-10-06 (ชุดถัดไป 16 ต.ค.) / ETF ก.ย. 2026 / PBOC ก.ย. 2026"
   },
   "levels": {
-    "resistance": [
-      4154.204,
-      4170.49,
-      4206.226
-    ],
-    "support": [
-      4143.255,
-      4120.463,
-      4106.822
-    ]
+    "resistance": [4153.912, 4170.490, 4205.947],
+    "support": [4143.255, 4120.463, 4106.822]
   },
   "setups": [
     {
@@ -42,9 +34,9 @@
       "tp1": 4206.0,
       "tp2": 4232.0,
       "risk_pct": 3.0,
-      "max_spread": 0.8,
-      "valid_until": "2026-10-14T15:40:57Z",
-      "note": "คงระดับและ id เดิมรอบที่ 5 ติดกัน buy stop เหนือคลัสเตอร์ EMA10 4167.878 + HMA9 4171.769 (ขยับลงเพียง -0.9/-1.4 จากรอบ 06Z) และ High วัน 4170.490 ห่างราคาตลาด 32.3 จุด SL 4151 ใต้ SMA10 4154.204 ตามเงินใหญ่ accumulating น้ำหนักเต็ม 3.0 R:R 1.79 SL 29"
+      "max_spread": 0.80,
+      "valid_until": "2026-10-14T15:41:13Z",
+      "note": "คงระดับและ id เดิมรอบที่ 6 ติดกัน buy stop เหนือคลัสเตอร์ EMA10 4167.347 + HMA9 4170.893 + High วัน 4170.490 (MA ขยับเพียง -0.5/-0.9 จากรอบ 07:40Z) ห่างราคาตลาด 35.4 จุด SL 4151 ใต้ SMA10 4153.912 ตามเงินใหญ่ accumulating น้ำหนักเต็ม 3.0 R:R 1.79 SL 29"
     },
     {
       "id": "2026-10-14-buy-4140",
@@ -58,9 +50,9 @@
       "tp1": 4164.0,
       "tp2": 4187.0,
       "risk_pct": 3.0,
-      "max_spread": 0.8,
-      "valid_until": "2026-10-14T15:40:57Z",
-      "note": "เลื่อนลงจาก buy-4145 เพราะราคาลงต่อเป็น 4147.715 ทำให้โซนเดิม 4145 ห่างตลาดแค่ 2.7 จุด ต่ำกว่าขั้นต่ำ 3 จุดที่โบรกยอมให้วาง pending จึงย้ายมาใต้ Low วันใหม่ 4143.255 ห่างตลาด 7.7 จุด SL 4114 ใต้ Camarilla S1 4120.463 ตามเงินใหญ่ 3.0 R:R 1.81 SL 26"
+      "max_spread": 0.80,
+      "valid_until": "2026-10-14T15:41:13Z",
+      "note": "คงระดับและ id เดิม buy limit รับใต้ Low วัน 4143.255 ห่างราคาตลาด 4.6 จุด ยังเหนือขั้นต่ำ 3 จุดที่โบรกยอมให้วาง SL 4114 ใต้ Camarilla S1 4120.463 ตามเงินใหญ่ 3.0 R:R 1.81 SL 26"
     },
     {
       "id": "2026-10-14-sell-4225",
@@ -74,9 +66,9 @@
       "tp1": 4202.0,
       "tp2": 4178.0,
       "risk_pct": 1.5,
-      "max_spread": 0.8,
-      "valid_until": "2026-10-14T15:40:57Z",
-      "note": "คงระดับและ id เดิม คลัสเตอร์แนวต้าน EMA20 4206.226 / SMA20 4213.232 / VWMA20 4220.881 ขยับไม่เกิน 0.5 จุดจากรอบก่อน ห่างราคาตลาด 77.3 จุด SL 4251 เหนือ SMA100 4249.489 / Ichimoku 4250.790 สวนเงินใหญ่จึงใช้น้ำหนักครึ่ง 1.5 R:R 1.81 SL 26"
+      "max_spread": 0.80,
+      "valid_until": "2026-10-14T15:41:13Z",
+      "note": "คงระดับและ id เดิม คลัสเตอร์แนวต้าน EMA20 4205.947 / SMA20 4213.086 / VWMA20 4220.736 ขยับไม่เกิน 0.3 จุด ห่างราคาตลาด 80.4 จุด SL 4251 เหนือ SMA100 4249.460 / Ichimoku 4250.790 สวนเงินใหญ่จึงใช้น้ำหนักครึ่ง 1.5 R:R 1.81 SL 26"
     },
     {
       "id": "2026-10-14-sell-4255",
@@ -90,48 +82,18 @@
       "tp1": 4232.0,
       "tp2": 4208.0,
       "risk_pct": 1.5,
-      "max_spread": 0.8,
-      "valid_until": "2026-10-14T15:40:57Z",
-      "note": "คงระดับและ id เดิม Ichimoku 4250.790 + SMA100 4249.489 เป็นฐานโซน SMA30 4261.834 / EMA50 4263.030 เป็นเพดาน ห่างราคาตลาด 107.3 จุด สวนเงินใหญ่ 1.5 R:R 1.81 SL 26"
+      "max_spread": 0.80,
+      "valid_until": "2026-10-14T15:41:13Z",
+      "note": "คงระดับและ id เดิม Ichimoku 4250.790 + SMA100 4249.460 เป็นฐานโซน SMA30 4261.737 / EMA50 4262.916 เป็นเพดาน ห่างราคาตลาด 110.4 จุด สวนเงินใหญ่ 1.5 R:R 1.81 SL 26"
     }
   ],
   "news_blackout": [
-    {
-      "from": "2026-10-14T09:25:00Z",
-      "to": "2026-10-14T10:10:00Z",
-      "label": "Fed Bowman Speech",
-      "impact": "medium"
-    },
-    {
-      "from": "2026-10-14T10:50:00Z",
-      "to": "2026-10-14T11:15:00Z",
-      "label": "MBA Mortgage Applications OCT/09",
-      "impact": "low"
-    },
-    {
-      "from": "2026-10-14T12:00:00Z",
-      "to": "2026-10-14T13:30:00Z",
-      "label": "US CPI SEP (Inflation Rate YoY/MoM + Core)",
-      "impact": "high"
-    },
-    {
-      "from": "2026-10-14T15:20:00Z",
-      "to": "2026-10-14T15:45:00Z",
-      "label": "17-Week Bill Auction",
-      "impact": "low"
-    },
-    {
-      "from": "2026-10-14T17:15:00Z",
-      "to": "2026-10-14T18:00:00Z",
-      "label": "Fed Barkin Speech",
-      "impact": "medium"
-    },
-    {
-      "from": "2026-10-14T17:50:00Z",
-      "to": "2026-10-14T18:30:00Z",
-      "label": "Fed Beige Book",
-      "impact": "medium"
-    }
+    { "from": "2026-10-14T09:25:00Z", "to": "2026-10-14T10:10:00Z", "label": "Fed Bowman Speech", "impact": "medium" },
+    { "from": "2026-10-14T10:50:00Z", "to": "2026-10-14T11:15:00Z", "label": "MBA Mortgage Applications OCT/09", "impact": "low" },
+    { "from": "2026-10-14T12:00:00Z", "to": "2026-10-14T13:30:00Z", "label": "US CPI SEP (Inflation Rate YoY/MoM + Core)", "impact": "high" },
+    { "from": "2026-10-14T15:20:00Z", "to": "2026-10-14T15:45:00Z", "label": "17-Week Bill Auction", "impact": "low" },
+    { "from": "2026-10-14T17:15:00Z", "to": "2026-10-14T18:00:00Z", "label": "Fed Barkin Speech", "impact": "medium" },
+    { "from": "2026-10-14T17:50:00Z", "to": "2026-10-14T18:30:00Z", "label": "Fed Beige Book", "impact": "medium" }
   ],
-  "notes": "รอบ 07:40Z พ. 14 ต.ค. OANDA 4147.715 (-13.070 -0.31% จาก Previous close 4160.785) Open 4161.080 กรอบวันขยายลงเป็น 4143.255-4170.490 ราคายังอยู่ใต้ MA ทุกเส้น (MA Strong sell 14/1/0) แต่ ADX 18.993 < 20 = ยังเป็นกรอบไม่ใช่เทรนด์ RSI 41.976 (จาก 42.355) MACD -50.136 Momentum -9.615 Oscillators Neutral 0/9/2 Summary Sell 14/10/2 MA ขยับไม่เกิน 1.5 จุดจากรอบ 06Z: EMA10 4167.878 HMA9 4171.769 SMA10 4154.204 EMA20 4206.226 SMA20 4213.232 VWMA20 4220.881 EMA30 4234.722 SMA100 4249.489 Ichimoku 4250.790 SMA30 4261.834 EMA50 4263.030 setup 3 ใน 4 คงระดับและ id เดิม มีแต่ buy-4145 ที่ต้องเลื่อนเป็น buy-4140 เพราะราคาลงมาใกล้เกิน 3 จุด เงินใหญ่ accumulating (COT 6 ต.ค. MM net long 110,987 -9,331 w/w อยู่ในโซนปกติ 50k-200k ชุดใหม่ 16 ต.ค. / ETF ก.ย. +US$10bn / PBOC +21t) จึงให้ฝั่งซื้อ 3.0 ฝั่งขาย 1.5 ปฏิทิน 12 ชม.: Fed Bowman 09:40Z medium, MBA 11:00Z low, CPI ก.ย. 12:30Z high (คาด YoY 3.6% จาก 3.4% / MoM 0.5% / Core YoY 2.4% / Core MoM 0.2%) EA ลบ pending ทั้งหมด 12:00Z, 17-Week Bill 15:30Z low, Fed Barkin 17:30Z + Beige Book 18:00Z medium setup valid_until 2026-10-14T15:40:57Z (8 ชม.) ให้ EA วาง pending ใหม่ได้หลัง blackout CPI จบ 13:30Z ตัวถัดไป PPI+Retail Sales+Jobless Claims 15 ต.ค. 12:30Z medium, FOMC 28 ต.ค. high"
+  "notes": "รอบ 08:41Z พ. 14 ต.ค. OANDA 4144.600 (-16.185 -0.39% จาก Previous close 4160.785) Open 4161.080 กรอบวัน 4143.255-4170.490 ยังไม่ขยาย ราคาอยู่ใต้ MA ทุกเส้น (MA Strong sell 14/1/0) แต่ ADX 18.993 เท่ารอบก่อนและยังต่ำกว่า 20 = กรอบ ไม่ใช่เทรนด์ RSI 41.750 (จาก 41.976) MACD -50.369 Momentum -12.535 Oscillators Neutral 0/9/2 Summary Sell 14/10/2 MA ขยับไม่เกิน 1 จุดจากรอบ 07:40Z: EMA10 4167.347 HMA9 4170.893 SMA10 4153.912 EMA20 4205.947 SMA20 4213.086 VWMA20 4220.736 EMA30 4234.533 SMA100 4249.460 Ichimoku 4250.790 SMA30 4261.737 EMA50 4262.916 setup ทั้ง 4 ตัวคงระดับและ id เดิมครบ EA ไม่ต้องแตะ pending ที่วางไว้ เงินใหญ่ accumulating (COT 6 ต.ค. MM net long 110,987 -9,331 w/w โซนปกติ 50k-200k ชุดใหม่ 16 ต.ค. / ETF ก.ย. +US$10bn / PBOC +21t) ฝั่งซื้อ 3.0 ฝั่งขาย 1.5 ปฏิทิน 12 ชม.: Fed Bowman 09:40Z medium, MBA 11:00Z low, CPI ก.ย. 12:30Z high (คาด YoY 3.6% จาก 3.4% / MoM 0.5% / Core YoY 2.4% / Core MoM 0.2%) EA ลบ pending ทั้งหมด 12:00Z, 17-Week Bill 15:30Z low, Fed Barkin 17:30Z + Beige Book 18:00Z medium setup valid_until 2026-10-14T15:41:13Z (7 ชม.) ให้ EA วาง pending ใหม่ได้หลัง blackout CPI จบ 13:30Z ตัวถัดไป PPI+Retail Sales+Jobless Claims 15 ต.ค. 12:30Z medium, FOMC 28 ต.ค. high"
 }
