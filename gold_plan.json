@@ -1,14 +1,14 @@
 {
   "schema_version": "1.2",
-  "generated_at": "2026-10-27T09:45:00Z",
-  "valid_until": "2026-10-27T12:45:00Z",
+  "generated_at": "2026-10-28T01:45:00Z",
+  "valid_until": "2026-10-28T04:45:00Z",
   "symbol": "XAUUSD",
   "feed": "OANDA",
-  "reference_price": 3996.97,
+  "reference_price": 4054.04,
   "market_state": "trend_down",
   "bias": "short",
-  "adx": 27.246,
-  "rsi": 34.438,
+  "adx": 26.787,
+  "rsi": 40.24,
   "smart_money": {
     "state": "accumulating",
     "cot_managed_money_net": 104206,
@@ -19,67 +19,51 @@
   },
   "levels": {
     "resistance": [
-      4008.36,
-      4047.119,
-      4071.4
+      4077.576,
+      4089.482,
+      4120.463
     ],
     "support": [
-      3971.662,
-      3959.89,
-      3933.973
+      4047.119,
+      4008.36,
+      3959.89
     ]
   },
   "setups": [
     {
-      "id": "2026-10-27-buy-3970",
+      "id": "2026-10-28-buy-4045",
       "direction": "buy",
-      "zone_low": 3965.0,
-      "zone_high": 3975.0,
-      "confirm": "h1_close_above",
-      "confirm_level": 3970.0,
-      "entry": 3970.0,
-      "stop_loss": 3947.0,
-      "tp1": 3988.0,
-      "tp2": 4012.0,
-      "risk_pct": 3.0,
-      "max_spread": 0.8,
-      "valid_until": "2026-10-27T17:45:00Z",
-      "note": "ย้ายจาก buy 3995 เพราะราคาไหลลงมา 3994.730 เหลือห่างจุดเข้าเดิมแค่ 0.27 จุด โบรกวาง pending ไม่ได้ (ต้องเกิน 3 จุด) ระดับใหม่อ้าง HMA9 3971.320 ซึ่งเป็น MA ตัวเดียวที่ยัง Buy โซน 3965-3975 buy limit ห่างราคาตลาดลงไป 24.7 จุด SL 3947 ใต้ Woodie S1 3959.890 TP2 4012 ที่ Fibonacci S2 4012.408 ตามเงินใหญ่ accumulating น้ำหนักเต็ม 3.0 R:R 1.83 SL 23"
-    },
-    {
-      "id": "2026-10-27-buy-3960",
-      "direction": "buy",
-      "zone_low": 3955.0,
-      "zone_high": 3965.0,
-      "confirm": "h1_close_above",
-      "confirm_level": 3960.0,
-      "entry": 3960.0,
-      "stop_loss": 3931.0,
-      "tp1": 3987.0,
-      "tp2": 4013.0,
-      "risk_pct": 3.0,
-      "max_spread": 0.8,
-      "valid_until": "2026-10-27T17:45:00Z",
-      "note": "ระดับเดิมไม่เปลี่ยน แนวรับลึก Woodie S1 3959.890 นิ่งต่อเนื่องหลายรอบ buy limit ห่างราคาตลาดลงไป 34.7 จุด SL 3931 ใต้ DM S1 3933.973 TP2 4013 ที่ Fibonacci S2 4012.408 ตามเงินใหญ่ accumulating 3.0 R:R 1.83 SL 29"
-    },
-    {
-      "id": "2026-10-27-sell-4045",
-      "direction": "sell",
       "zone_low": 4040.0,
       "zone_high": 4050.0,
-      "confirm": "h1_close_below",
+      "confirm": "h1_close_above",
       "confirm_level": 4045.0,
       "entry": 4045.0,
-      "stop_loss": 4077.0,
-      "tp1": 4022.0,
-      "tp2": 3990.0,
-      "risk_pct": 1.5,
+      "stop_loss": 4022.0,
+      "tp1": 4066.0,
+      "tp2": 4086.0,
+      "risk_pct": 3.0,
       "max_spread": 0.8,
-      "valid_until": "2026-10-27T17:45:00Z",
-      "note": "ระดับเดิมไม่เปลี่ยน Camarilla S3 4047.119 คงที่ทั้งวัน sell limit ห่างราคาตลาดขึ้นไป 50.3 จุด SL 4077 เหนือ EMA10 4071.193 TP2 3990 ใต้ก้นวัน 3992.620 ตามเทรนด์ลง (ADX 27.246 MA Strong sell 13/1/1) แต่สวนเงินใหญ่จึงใช้น้ำหนักครึ่ง 1.5 R:R 1.72 SL 32"
+      "valid_until": "2026-10-28T09:45:00Z",
+      "note": "setup ใหม่ทั้งหมด ราคากระโดดขึ้นจาก 3996.970 (รอบ 27 ต.ค. 09:45) มาเป็น 4054.040 ขึ้น 57 จุด โซนเก่า 3970/3960 ห่างเกินไปและ sell 4045 กลายเป็นต่ำกว่าราคาตลาดจึงวาง pending ไม่ได้ ต้องรีเซ็ตทั้งแผน โซนนี้อ้าง Camarilla S3 4047.119 + ก้นวัน 4051.135 buy limit ห่างราคาตลาดลงไป 9 จุด SL 4022 ใต้โซน TP2 4086 ใต้คลัสเตอร์ Camarilla S2 4083.791 + SMA10 4089.482 ตามเงินใหญ่ accumulating น้ำหนักเต็ม 3.0 R:R 1.78 SL 23"
     },
     {
-      "id": "2026-10-27-sell-4085",
+      "id": "2026-10-28-buy-4010",
+      "direction": "buy",
+      "zone_low": 4005.0,
+      "zone_high": 4015.0,
+      "confirm": "h1_close_above",
+      "confirm_level": 4010.0,
+      "entry": 4010.0,
+      "stop_loss": 3985.0,
+      "tp1": 4030.0,
+      "tp2": 4055.0,
+      "risk_pct": 3.0,
+      "max_spread": 0.8,
+      "valid_until": "2026-10-28T09:45:00Z",
+      "note": "แนวรับลึกคลัสเตอร์แน่น Classic S1 4008.360 + HMA9 4008.986 (MA ตัวเดียวที่ยัง Buy) + Fibonacci S2 4012.408 อยู่ในช่วง 4008-4012 buy limit ห่างราคาตลาดลงไป 44 จุด SL 3985 ใต้คลัสเตอร์ เหนือ Woodie S1 3959.890 TP2 4055 กลับมาที่ราคาตลาดวันนี้ ตามเงินใหญ่ accumulating 3.0 R:R 1.80 SL 25"
+    },
+    {
+      "id": "2026-10-28-sell-4085",
       "direction": "sell",
       "zone_low": 4080.0,
       "zone_high": 4090.0,
@@ -87,51 +71,55 @@
       "confirm_level": 4085.0,
       "entry": 4085.0,
       "stop_loss": 4113.0,
-      "tp1": 4061.0,
-      "tp2": 4034.0,
+      "tp1": 4062.0,
+      "tp2": 4035.0,
       "risk_pct": 1.5,
       "max_spread": 0.8,
-      "valid_until": "2026-10-27T17:45:00Z",
-      "note": "ระดับเดิมไม่เปลี่ยน คลัสเตอร์แนวต้านใหญ่ Camarilla S2 4083.791 + SMA10 4088.160 ยังอยู่ในโซน 4080-4090 sell limit ห่างราคาตลาด 90.3 จุด SL 4113 เหนือ Fibonacci S1 4106.822 และใต้คลัสเตอร์ MA20 4121-4123 สวนเงินใหญ่ 1.5 R:R 1.82 SL 28"
+      "valid_until": "2026-10-28T09:45:00Z",
+      "note": "คงระดับเดิมจากรอบก่อน คลัสเตอร์แนวต้าน Camarilla S2 4083.791 + SMA10 4089.482 ยังอยู่ในโซน 4080-4090 sell limit ห่างราคาตลาดขึ้นไป 31 จุด SL 4113 เหนือ Fibonacci S1 4106.822 TP2 4035 ตามเทรนด์ลง (ADX 26.787 MA Strong sell 13/1/1 ราคาอยู่ใต้ MA ทุกตัวยกเว้น HMA9) แต่สวนเงินใหญ่จึงใช้น้ำหนักครึ่ง 1.5 R:R 1.79 SL 28"
+    },
+    {
+      "id": "2026-10-28-sell-4120",
+      "direction": "sell",
+      "zone_low": 4115.0,
+      "zone_high": 4125.0,
+      "confirm": "h1_close_below",
+      "confirm_level": 4120.0,
+      "entry": 4120.0,
+      "stop_loss": 4150.0,
+      "tp1": 4098.0,
+      "tp2": 4066.0,
+      "risk_pct": 1.5,
+      "max_spread": 0.8,
+      "valid_until": "2026-10-28T09:45:00Z",
+      "note": "ย้ายขึ้นมาแทน sell 4085 ตัวเก่าที่ตอนนี้ห่างไม่พอ คลัสเตอร์แนวต้านใหญ่สุด SMA20 4119.700 + VWMA20 4119.957 + Camarilla S1 4120.463 + EMA20 4122.245 รวม 4 เส้นในช่วง 2.5 จุด sell limit ห่างราคาตลาด 66 จุด SL 4150 เหนือคลัสเตอร์ ใต้ EMA30 4158.061 TP2 4066 เหนือ EMA10 ที่กลายเป็นแนวรับ สวนเงินใหญ่ 1.5 R:R 1.80 SL 30"
     }
   ],
   "news_blackout": [
     {
-      "from": "2026-10-27T11:45:00Z",
-      "to": "2026-10-27T12:15:00Z",
-      "label": "Building Permits Final SEP",
+      "from": "2026-10-28T10:45:00Z",
+      "to": "2026-10-28T11:15:00Z",
+      "label": "MBA Mortgage Applications + 30Y Rate OCT/23",
       "impact": "low"
     },
     {
-      "from": "2026-10-27T12:15:00Z",
-      "to": "2026-10-27T12:50:00Z",
-      "label": "Durable Goods Orders MoM SEP",
-      "impact": "medium"
-    },
-    {
-      "from": "2026-10-27T12:50:00Z",
-      "to": "2026-10-27T13:15:00Z",
-      "label": "S&P/Case-Shiller Home Price + House Price Index AUG",
+      "from": "2026-10-28T12:15:00Z",
+      "to": "2026-10-28T12:50:00Z",
+      "label": "Goods Trade Balance Adv + Wholesale/Retail Inventories SEP",
       "impact": "low"
     },
     {
-      "from": "2026-10-27T13:45:00Z",
-      "to": "2026-10-27T14:20:00Z",
-      "label": "CB Consumer Confidence + New Home Sales + Richmond Fed OCT",
-      "impact": "medium"
-    },
-    {
-      "from": "2026-10-27T14:20:00Z",
-      "to": "2026-10-27T14:45:00Z",
-      "label": "Dallas Fed Services Index OCT",
+      "from": "2026-10-28T14:15:00Z",
+      "to": "2026-10-28T14:45:00Z",
+      "label": "EIA Crude Oil Stocks Change OCT/23",
       "impact": "low"
     },
     {
       "from": "2026-10-28T17:30:00Z",
       "to": "2026-10-28T19:00:00Z",
-      "label": "FOMC Rate Decision",
+      "label": "FOMC Rate Decision + Statement + Fed Press Conference",
       "impact": "high"
     }
   ],
-  "notes": "รอบ 09:45 UTC ราคา 3996.970 ลบ 20.220 (-0.50%) จาก prev close 4017.190 เด้งขึ้นเล็กน้อย 2.2 จุดจากรอบ 08:45 (3994.730) ก้นวันใหม่ 3989.160 (กรอบวัน 3989.160-4025.630) ยังอยู่ใต้เลขกลม 4000 และใต้ Classic S1 4008.360 ซึ่งเป็นแนวต้านแรก ADX 27.246 คงที่ รอบที่ 3 ติดกัน RSI 34.438 Stoch 11.5 StochRSI 10.2 ยังขายมากเกิน MA Strong sell 13/1/1 มีแต่ HMA9 3971.662 ที่ Buy (ขยับขึ้นแค่ 0.34 จุดจากรอบก่อน) pivot ทุกชุดไม่เปลี่ยนเลยทั้งวัน ระดับเดิมทั้ง 4 setup ไม่เปลี่ยน อัปเดตเวลาอย่างเดียว id คงเดิมทั้งหมด EA ไม่ต้องแตะ pending 3970/3960/4045/4085 เงินใหญ่ยัง accumulating COT 104,206 (-2,883 w/w) อยู่ในโซนปกติ 50k-200k ฝั่งซื้อน้ำหนักเต็ม 3.0 ฝั่งขายครึ่ง 1.5 ข่าว 12 ชม. ระดับกลาง Durable Goods 12:30 UTC และ CB Consumer Confidence + New Home Sales 14:00 UTC ตัวใหญ่ FOMC พุธ 28 ต.ค. 18:00 UTC EA จะลบ pending ทั้งหมด 17:30 UTC"
+  "notes": "รอบ 01:45 UTC ราคา 4054.040 ลบ 6.290 (-0.15%) จาก prev close 4060.330 กรอบวัน 4051.135-4070.840 เปิด 4061.240 ⚠️ ต้องรีเซ็ตแผนทั้งหมด เพราะข้ามจากรอบล่าสุด (27 ต.ค. 09:45 ที่ 3996.970) ราคาเด้งขึ้น 57 จุด ทำให้ 4 setup เดิมใช้ไม่ได้ทั้งหมด (buy 3970/3960 ห่างเกิน sell 4045 ต่ำกว่าราคาตลาดแล้ววาง pending ไม่ได้) id ใหม่ทั้ง 4 ตัว EA จะลบ pending เก่าและวางใหม่รอบนี้ ADX 26.787 ยังเกิน 25 เทรนด์ลงใช้ได้ RSI 40.240 กลับขึ้นจาก 34.438 Stoch 28.1 StochRSI 46.0 ออกจากเขตขายมากเกินแล้ว MA Strong sell 13/1/1 ราคายังต่ำกว่าทุกเส้นยกเว้น HMA9 4008.986 pivot ทุกชุดไม่เปลี่ยน เงินใหญ่ยัง accumulating COT 104,206 (-2,883 w/w) โซนปกติ ฝั่งซื้อน้ำหนักเต็ม 3.0 ฝั่งขายครึ่ง 1.5 ⚠️ วันนี้ FOMC 18:00 UTC EA จะเลื่อน SL มาจุดเข้าและลบ pending ทั้งหมดตั้งแต่ 17:30 UTC setup หมดอายุ 09:45 UTC ก่อนถึงช่วงนั้นอยู่แล้ว"
 }
