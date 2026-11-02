@@ -1,14 +1,14 @@
 {
   "schema_version": "1.2",
-  "generated_at": "2026-10-30T03:45:00Z",
-  "valid_until": "2026-10-30T06:45:00Z",
+  "generated_at": "2026-11-02T02:16:27Z",
+  "valid_until": "2026-11-02T05:16:27Z",
   "symbol": "XAUUSD",
   "feed": "OANDA",
-  "reference_price": 3994.22,
+  "reference_price": 3910.405,
   "market_state": "trend_down",
   "bias": "short",
-  "adx": 27.457,
-  "rsi": 35.996,
+  "adx": 30.176,
+  "rsi": 33.26,
   "smart_money": {
     "state": "accumulating",
     "cot_managed_money_net": 104206,
@@ -19,101 +19,101 @@
   },
   "levels": {
     "resistance": [
-      4008.36,
-      4012.408,
-      4055.609
+      3941.134,
+      3972.49,
+      3991.165
     ],
     "support": [
-      3992.285,
-      3959.89,
-      3933.973
+      3891.515,
+      3854.711,
+      3810.157
     ]
   },
   "setups": [
     {
-      "id": "2026-10-30-sell-4055",
+      "id": "2026-11-02-sell-3935",
       "direction": "sell",
-      "zone_low": 4050.0,
-      "zone_high": 4060.0,
-      "confirm": "h1_close_below",
-      "confirm_level": 4055.0,
-      "entry": 4055.0,
-      "stop_loss": 4082.0,
-      "tp1": 4035.0,
-      "tp2": 4006.0,
-      "risk_pct": 1.5,
-      "max_spread": 0.8,
-      "valid_until": "2026-10-30T11:45:00Z",
-      "note": "setup ใหม่แทน sell-4120 ที่ไกลเกินไป คลัสเตอร์ EMA10 4055.609 + SMA10 4058.721 ห่างกัน 3.1 จุดเป็นโซนแนวต้านแรกของเทรนด์ลง sell limit ห่างราคาตลาดขึ้นไป 60.78 จุด SL 4082 ใต้ Camarilla S2 4083.791 เล็กน้อยเพื่อไม่ทับจุดเข้า sell-4085 ตามเทรนด์ลง ADX 27.457 MA Strong sell 14/1/0 แต่สวนเงินใหญ่ accumulating จึงใช้น้ำหนักครึ่ง 1.5 R:R 1.81 SL 27"
-    },
-    {
-      "id": "2026-10-30-sell-4085",
-      "direction": "sell",
-      "zone_low": 4080.0,
-      "zone_high": 4090.0,
-      "confirm": "h1_close_below",
-      "confirm_level": 4085.0,
-      "entry": 4085.0,
-      "stop_loss": 4113.0,
-      "tp1": 4062.0,
-      "tp2": 4035.0,
-      "risk_pct": 1.5,
-      "max_spread": 0.8,
-      "valid_until": "2026-10-30T11:45:00Z",
-      "note": "คงระดับเดิมทุกค่า Camarilla S2 4083.791 ไม่ขยับ sell limit ห่างราคาตลาด 90.78 จุด SL 4113 เหนือ Fibonacci S1 4106.822 + คลัสเตอร์ EMA20 4102.360/VWMA20 4104.622/SMA20 4105.230 สวนเงินใหญ่ 1.5 R:R 1.79 SL 28"
-    },
-    {
-      "id": "2026-10-30-buy-3965",
-      "direction": "buy",
-      "zone_low": 3960.0,
-      "zone_high": 3970.0,
-      "confirm": "h1_close_above",
-      "confirm_level": 3965.0,
-      "entry": 3965.0,
-      "stop_loss": 3940.0,
-      "tp1": 3988.0,
-      "tp2": 4010.0,
-      "risk_pct": 3.0,
-      "max_spread": 0.8,
-      "valid_until": "2026-10-30T11:45:00Z",
-      "note": "คงระดับเดิม Woodie S1 3959.890 ค่าเท่าเดิมไม่ขยับ buy limit ห่างราคาตลาดลงไป 29.22 จุด DM S1 3933.973 เป็นกันชนถัดไป ตามเงินใหญ่ accumulating น้ำหนักเต็ม 3.0 (COT 104,206 ต่ำกว่า 200k) R:R 1.80 SL 25"
-    },
-    {
-      "id": "2026-10-30-buy-3935",
-      "direction": "buy",
       "zone_low": 3930.0,
-      "zone_high": 3940.0,
-      "confirm": "h1_close_above",
+      "zone_high": 3942.0,
+      "confirm": "h1_close_below",
       "confirm_level": 3935.0,
       "entry": 3935.0,
-      "stop_loss": 3910.0,
-      "tp1": 3958.0,
-      "tp2": 3980.0,
+      "stop_loss": 3963.0,
+      "tp1": 3917.0,
+      "tp2": 3885.0,
+      "risk_pct": 1.5,
+      "max_spread": 0.8,
+      "valid_until": "2026-11-02T10:16:27Z",
+      "note": "setup ใหม่ทั้งชุด โครงสร้างเปลี่ยนจริง ราคาหลุดจาก 3994 (รอบ 30 ต.ค.) ลงมา 3910.405 ระดับเดิมทุกตัวหมดอายุ โซนนี้คือคลัสเตอร์ HMA9 3932.524 + Camarilla R2 3941.134 ห่างกัน 8.6 จุด เป็นแนวต้านแรกเหนือราคา sell limit ห่างราคาตลาด 24.6 จุด SL 3963 เหนือ DM P 3960.954 ตามเทรนด์ลง ADX 30.176 MA Strong sell 14/1/0 แต่สวนเงินใหญ่ accumulating จึงใช้น้ำหนักครึ่ง 1.5 R:R 1.79 SL 28"
+    },
+    {
+      "id": "2026-11-02-sell-3970",
+      "direction": "sell",
+      "zone_low": 3962.0,
+      "zone_high": 3975.0,
+      "confirm": "h1_close_below",
+      "confirm_level": 3970.0,
+      "entry": 3970.0,
+      "stop_loss": 3997.0,
+      "tp1": 3948.0,
+      "tp2": 3921.0,
+      "risk_pct": 1.5,
+      "max_spread": 0.8,
+      "valid_until": "2026-11-02T10:16:27Z",
+      "note": "คลัสเตอร์พิวอทแน่น DM P 3960.954 + Woodie P 3972.490 + Camarilla R3 3973.878 sell limit ห่างราคาตลาด 59.6 จุด SL 3997 เหนือพิวอทกลาง Classic/Fibonacci/Camarilla P 3991.165 ตามเทรนด์ลงแต่สวนเงินใหญ่ 1.5 R:R 1.81 SL 27"
+    },
+    {
+      "id": "2026-11-02-buy-3850",
+      "direction": "buy",
+      "zone_low": 3843.0,
+      "zone_high": 3857.0,
+      "confirm": "h1_close_above",
+      "confirm_level": 3850.0,
+      "entry": 3850.0,
+      "stop_loss": 3823.0,
+      "tp1": 3874.0,
+      "tp2": 3899.0,
       "risk_pct": 3.0,
       "max_spread": 0.8,
-      "valid_until": "2026-10-30T11:45:00Z",
-      "note": "setup ใหม่แทน buy-4000 ที่ถูกราคาทะลุลงไปแล้ว DM S1 3933.973 เป็นแนวรับพิวอทถัดไปใต้ Woodie S1 buy limit ห่างราคาตลาดลงไป 59.22 จุด SL 3910 ใต้แนวรับพิวอทชุดถัดไป ตามเงินใหญ่ accumulating 3.0 R:R 1.80 SL 25"
+      "valid_until": "2026-11-02T10:16:27Z",
+      "note": "โซนแนวรับจริงชุดแรกใต้ราคา Camarilla S1 3842.901 + Fibonacci S1 3854.711 buy limit ห่างราคาตลาดลงไป 60.4 จุด SL 3823 ใต้คลัสเตอร์ทั้งคู่ ตามเงินใหญ่ accumulating น้ำหนักเต็ม 3.0 (COT 104,206 ต่ำกว่า 200k) เป็นการสวนเทรนด์เทคนิคจึงต้องรอให้ราคาลงถึงโซนจริง R:R 1.81 SL 27"
+    },
+    {
+      "id": "2026-11-02-buy-3810",
+      "direction": "buy",
+      "zone_low": 3804.0,
+      "zone_high": 3816.0,
+      "confirm": "h1_close_above",
+      "confirm_level": 3810.0,
+      "entry": 3810.0,
+      "stop_loss": 3784.0,
+      "tp1": 3833.0,
+      "tp2": 3857.0,
+      "risk_pct": 3.0,
+      "max_spread": 0.8,
+      "valid_until": "2026-11-02T10:16:27Z",
+      "note": "แนวรับลึก Camarilla S2 3810.157 เป็นกันชนถัดไปถ้าโซน 3850 ถูกทะลุ buy limit ห่างราคาตลาดลงไป 100.4 จุด SL 3784 ใต้ Camarilla S2 ตามเงินใหญ่ accumulating 3.0 R:R 1.81 SL 26"
     }
   ],
   "news_blackout": [
     {
-      "from": "2026-10-30T12:00:00Z",
-      "to": "2026-10-30T13:00:00Z",
-      "label": "Employment Cost Index Q3",
+      "from": "2026-11-02T14:15:00Z",
+      "to": "2026-11-02T15:15:00Z",
+      "label": "S&P Global Manufacturing PMI Final OCT",
       "impact": "medium"
     },
     {
-      "from": "2026-10-30T13:15:00Z",
-      "to": "2026-10-30T14:15:00Z",
-      "label": "Chicago PMI OCT",
+      "from": "2026-11-02T14:30:00Z",
+      "to": "2026-11-02T15:30:00Z",
+      "label": "ISM Manufacturing PMI OCT",
       "impact": "medium"
     },
     {
-      "from": "2026-10-30T16:00:00Z",
-      "to": "2026-10-30T17:00:00Z",
-      "label": "Fed Musalem Speech",
+      "from": "2026-11-02T15:45:00Z",
+      "to": "2026-11-02T16:45:00Z",
+      "label": "Fed Goolsbee Speech",
       "impact": "medium"
     }
   ],
-  "notes": "โครงสร้างเปลี่ยนจริง ราคาหลุด 4000 ลงมา OANDA 3994.220 ลบ 26.345 (-0.66%) จาก prev close 4020.565 กรอบวัน 3992.285-4026.550 (รอบก่อน 4013.045 / โลว์ 4003.690) Classic S1 4008.360 กลายเป็นแนวต้าน buy-4000 ของรอบก่อนถูกราคาทะลุไปแล้ว (pending ควรถูกไล่เข้าตอนราคาลงไป 3992.285 SL 3975 ยังไม่โดน) จึงถอด id นั้นออกและใส่ buy-3935 ที่ DM S1 3933.973 แทน ฝั่งขายเปลี่ยน sell-4120 ที่ไกล 126 จุดออก ใส่ sell-4055 ที่คลัสเตอร์ EMA10 4055.609+SMA10 4058.721 แทน buy-3965 (Woodie S1) และ sell-4085 (Camarilla S2) คงระดับเดิมทุกค่า พิวอททุกชุดค่าเท่าเดิมไม่ขยับ RSI 37.295 -> 35.996 ADX 27.310 -> 27.457 ยังเหนือ 25 = โหมดตามเทรนด์+breakout MA Strong sell 14/1/0 Oscillators Sell 2/9/0 ฝั่งซื้อ 3.0 ฝั่งขาย 1.5 ตามเงินใหญ่ accumulating คัดลอก smart_money จากรอบ 06 UTC (ไม่ใช่รอบแรกของวัน) ข่าว 12 ชม. ข้างหน้า ไม่มี high เลย มีแต่ medium: ECI Q3 12:30Z, Chicago PMI 13:45Z, Fed Musalem 16:30Z (FOMC 28 ต.ค. ผ่านแล้ว ถัดไป NFP 6 พ.ย.) หมายเหตุ alert TradingView 'Crossing 4010' ถูกทริกเกอร์แล้วเป็นสถานะ Stopped รอบ 06/12/16 UTC ต้องสร้างใหม่"
+  "notes": "โครงสร้างเปลี่ยนจริง ไม่ใช่ขยับเล็กน้อย OANDA 3910.405 บวก 34.760 (+0.90%) จาก prev close 3875.645 กรอบวัน 3891.515-3915.195 แต่เทียบรอบก่อน (30 ต.ค. 3994.220) ราคาร่วงลงมา 84 จุด ระดับเดิมทั้งสี่หมดอายุ: buy-3965/buy-3935 ถูกราคาผ่านและ SL โดนไปแล้ว sell-4055/sell-4085 ไกลเกิน 145-175 จุด จึงออก id ใหม่ทั้งชุด ADX 27.457 -> 30.176 สูงขึ้นชัด = โหมดตามเทรนด์+breakout RSI 35.996 -> 33.260 MA Strong sell 14/1/0 Oscillators Neutral 1/7/3 สรุป Sell 15/8/3 MA ทุกเส้นอยู่เหนือราคาหมด (EMA10 4011.616 ห่างขึ้นไป 101 จุด) = เทรนด์ลงแรง แนวต้านใกล้สุดคลัสเตอร์ HMA9 3932.524+Camarilla R2 3941.134 แนวรับใกล้สุดคือโลว์วัน 3891.515 แล้วเว้นช่องว่างยาวถึง Camarilla S1 3842.901 ฝั่งขาย 1.5 (ตามเทคนิค สวนเงินใหญ่) ฝั่งซื้อ 3.0 (ตามเงินใหญ่ สวนเทคนิค) คัดลอก smart_money จากรอบก่อน (รอบนี้ 02 UTC ไม่ใช่รอบแรกของวัน) ข่าว 12 ชม. ข้างหน้า ไม่มี high: PMI/ISM ภาคผลิต 14:45-15:00Z และ Fed Goolsbee 16:15Z เป็น medium (NFP 6 พ.ย. FOMC 9 ธ.ค.) หมายเหตุ ไฟล์รอบก่อนลงวันที่ 30 ต.ค. หมดอายุไปแล้ว EA น่าจะไม่มีแผนใช้งานตั้งแต่ศุกร์"
 }
