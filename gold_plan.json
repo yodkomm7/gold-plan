@@ -1,40 +1,27 @@
 {
   "schema_version": "1.2",
-  "generated_at": "2026-11-04T05:45:00Z",
-  "valid_until": "2026-11-04T08:45:00Z",
+  "generated_at": "2026-11-04T06:45:00Z",
+  "valid_until": "2026-11-04T09:45:00Z",
   "symbol": "XAUUSD",
   "feed": "OANDA",
-  "reference_price": 3982.085,
+  "reference_price": 4021.700,
   "market_state": "trend_down",
-  "bias": "short",
-  "adx": 32.463,
-  "rsi": 41.5,
+  "bias": "neutral",
+  "adx": 31.738,
+  "rsi": 44.398,
   "smart_money": {
     "state": "accumulating",
     "cot_managed_money_net": 105562,
     "cot_change_wow": 1356,
-    "etf_flow_note": "ก.ย. 2026 ไหลเข้า US$10bn ทุกภูมิภาคเป็นบวก Q3 รวม ~US$31bn สูงสุดเป็นประวัติการณ์ ถือครอง 4,256t (รายงาน ต.ค. ของ WGC ยังไม่เผยแพร่)",
+    "etf_flow_note": "ก.ย. 2026 ไหลเข้า US$10bn ทุกภูมิภาคเป็นบวก Q3 รวม ~US$31bn สูงสุดเป็นประวัติการณ์ (รายงาน ต.ค. ของ WGC ยังไม่เผยแพร่)",
     "central_bank_note": "PBOC ซื้อ ~23 ตันใน ก.ย. มากสุดตั้งแต่ปี 2023 ต่อเนื่องเดือนที่ 23 (ข้อมูล ต.ค. ออก ~7 พ.ย.)",
     "as_of": "COT 2026-10-27 / ETF ก.ย. 2026 / PBOC ก.ย. 2026"
   },
-  "levels": { "resistance": [3991.165, 3999.342, 4048.925], "support": [3908.389, 3854.711, 3842.901] },
+  "levels": {
+    "resistance": [4048.925, 4059.205, 4073.374],
+    "support": [3995.850, 3991.165, 3973.878]
+  },
   "setups": [
-    {
-      "id": "2026-11-04-sell-3990",
-      "direction": "sell",
-      "zone_low": 3984.0,
-      "zone_high": 3996.0,
-      "confirm": "h1_close_below",
-      "confirm_level": 3990.0,
-      "entry": 3990.0,
-      "stop_loss": 4018.0,
-      "tp1": 3970.0,
-      "tp2": 3940.0,
-      "risk_pct": 1.5,
-      "max_spread": 0.80,
-      "valid_until": "2026-11-04T13:45:00Z",
-      "note": "คงราคาเดิมไม่ขยับ พิวอทกลาง Classic/Fibonacci/Camarilla P 3991.165 ทับ SMA10 3992.488 = แนวต้านแข็งที่สุด ราคาวิ่งขึ้นมาถึง 3982.085 แล้ว sell limit ห่างแค่ 7.9 จุด (ยังเกิน 3 จุดขั้นต่ำ) SL 4018 เหนือ EMA10 3999.342 สวนเงินใหญ่ accumulating ใช้น้ำหนักครึ่ง 1.5 R:R 1.79 SL 28"
-    },
     {
       "id": "2026-11-04-sell-4050",
       "direction": "sell",
@@ -48,8 +35,24 @@
       "tp2": 4000.0,
       "risk_pct": 1.5,
       "max_spread": 0.80,
-      "valid_until": "2026-11-04T13:45:00Z",
-      "note": "แทน sell-3975 ที่ตายแล้วเพราะราคาทะลุ Camarilla R3 3973.878 ขึ้นมา ชั้นถัดไปคือคลัสเตอร์ Ichimoku Base 4048.925 + EMA20 4056.002 + VWMA20 4065.746 sell limit ห่างตลาด 67.9 จุด SL 4078 เหนือ SMA20 4071.692 สวนเงินใหญ่จึง 1.5 R:R 1.79 SL 28"
+      "valid_until": "2026-11-04T14:45:00Z",
+      "note": "คงราคาเดิมจากรอบก่อนทุกจุด id ไม่เปลี่ยน EA ไม่ต้องแตะ pending ตัวนี้ คลัสเตอร์แนวต้านแรก Ichimoku Base 4048.925 + DM R1 4051.588 ห่างตลาดขึ้นไป 28.3 จุด SL 4078 เหนือ SMA20 4073.374 สวนเงินใหญ่ accumulating จึงใช้น้ำหนักครึ่ง 1.5 R:R 1.79 SL 28"
+    },
+    {
+      "id": "2026-11-04-buy-3995",
+      "direction": "buy",
+      "zone_low": 3989.0,
+      "zone_high": 4001.0,
+      "confirm": "h1_close_above",
+      "confirm_level": 3995.0,
+      "entry": 3995.0,
+      "stop_loss": 3970.0,
+      "tp1": 4015.0,
+      "tp2": 4040.0,
+      "risk_pct": 3.0,
+      "max_spread": 0.80,
+      "valid_until": "2026-11-04T14:45:00Z",
+      "note": "setup ใหม่แทน sell-3990 ที่ตายแล้ว ราคาทะลุพิวอทกลาง 3991.165 ขึ้นมายืนที่ 4021.700 พิวอทกลางที่ Classic/Fibonacci/Camarilla ตรงกันทั้งสามสาย + SMA10 3995.850 จึงพลิกจากแนวต้านเป็นแนวรับที่แข็งที่สุดในระยะใกล้ buy limit ห่างตลาดลงไป 26.7 จุด SL 3970 ใต้ Camarilla R3 3973.878 ตามเงินใหญ่ accumulating น้ำหนักเต็ม 3.0 (COT 105,562 ต่ำกว่า 200k ไม่แออัด) R:R 1.80 SL 25"
     },
     {
       "id": "2026-11-04-buy-3850",
@@ -64,8 +67,8 @@
       "tp2": 3899.0,
       "risk_pct": 3.0,
       "max_spread": 0.80,
-      "valid_until": "2026-11-04T13:45:00Z",
-      "note": "คงราคาเดิม คลัสเตอร์แนวรับ Fibonacci S1 3854.711 + Camarilla S1 3842.901 ไม่ขยับและยังไม่ถูกแตะ (ต่ำสุดวัน 3919.900) buy limit ห่างตลาดลงไป 132.1 จุด SL 3823 ใต้คลัสเตอร์ทั้งคู่ ตามเงินใหญ่ accumulating น้ำหนักเต็ม 3.0 (COT 105,562 ต่ำกว่า 200k ไม่แออัด) R:R 1.81 SL 27"
+      "valid_until": "2026-11-04T14:45:00Z",
+      "note": "คงราคาเดิม คลัสเตอร์แนวรับ Fibonacci S1 3854.711 + Camarilla S1 3842.901 ไม่ขยับและยังไม่ถูกแตะ (ต่ำสุดวัน 3919.900) buy limit ห่างตลาดลงไป 171.7 จุด SL 3823 ใต้คลัสเตอร์ทั้งคู่ ตามเงินใหญ่ accumulating 3.0 R:R 1.81 SL 27"
     },
     {
       "id": "2026-11-04-buy-3810",
@@ -80,15 +83,15 @@
       "tp2": 3857.0,
       "risk_pct": 3.0,
       "max_spread": 0.80,
-      "valid_until": "2026-11-04T13:45:00Z",
-      "note": "คงราคาเดิม แนวรับลึก Camarilla S2 3810.157 เป็นกันชนถัดไปถ้าโซน 3850 ถูกทะลุ buy limit ห่างตลาดลงไป 172.1 จุด SL 3784 ใต้ Camarilla S2 ตามเงินใหญ่ accumulating 3.0 R:R 1.81 SL 26"
+      "valid_until": "2026-11-04T14:45:00Z",
+      "note": "คงราคาเดิม แนวรับลึก Camarilla S2 3810.157 เป็นกันชนถัดไปถ้าโซน 3850 ถูกทะลุ buy limit ห่างตลาดลงไป 211.7 จุด SL 3784 ใต้ Camarilla S2 ตามเงินใหญ่ accumulating 3.0 R:R 1.81 SL 26"
     }
   ],
   "news_blackout": [
     { "from": "2026-11-04T12:45:00Z", "to": "2026-11-04T13:45:00Z", "label": "ADP Employment Change OCT (คาด 69-80K จาก 90K)", "impact": "medium" },
-    { "from": "2026-11-04T13:15:00Z", "to": "2026-11-04T14:00:00Z", "label": "Balance of Trade SEP + Treasury Refunding", "impact": "medium" },
+    { "from": "2026-11-04T13:15:00Z", "to": "2026-11-04T14:00:00Z", "label": "Balance of Trade SEP + Treasury Refunding Announcement", "impact": "medium" },
     { "from": "2026-11-04T14:30:00Z", "to": "2026-11-04T15:15:00Z", "label": "S&P Global Composite/Services PMI Final OCT", "impact": "medium" },
     { "from": "2026-11-04T14:45:00Z", "to": "2026-11-04T15:30:00Z", "label": "ISM Services PMI OCT (คาด 54.5 จาก 54.9)", "impact": "medium" }
   ],
-  "notes": "รอบ 05 UTC (4 พ.ย.) ราคาพุ่ง OANDA 3982.085 บวก 51.760 (+1.32%) ขึ้นจากรอบก่อน 43.9 จุด (3938.215 -> 3982.085) Previous close 3930.325 Open 3932.610 กรอบวันขยายเป็น 3919.900-3989.960 ทะลุ Camarilla R2 3941.134 และ R3 3973.878 ขึ้นมา = ต้องทิ้ง setup sell-3975 เพราะ entry ต่ำกว่าราคาตลาดแล้ว แทนด้วย sell-4050 ที่คลัสเตอร์ Ichimoku/EMA20/VWMA20 ADX 32.463 > 25 ตามเทรนด์+breakout RSI 41.500 Stoch %K 25.609 CCI -92.830 MACD -72.427 Sell Momentum -154.545 Buy MA Strong sell 13/1/1 ราคายังใต้ MA ทุกตัวยกเว้น Hull9 3913.689 สรุปรวม Sell 14/10/2 โครงสร้างขายยังคุม แต่แรงดีดรอบนี้แรงพอจะทดสอบพิวอทกลาง 3991.165 คง sell-3990 กับ buy-3850/3810 ราคาเดิมทุกจุด id ไม่เปลี่ยน EA แตะแค่ลบ sell-3975 กับวาง sell-4050 ข่าว 12 ชม. (ถึง ~17:45Z) เท่ารอบก่อน: ADP 13:15Z / Balance of Trade+Treasury Refunding 13:30Z / S&P PMI Final 14:45Z / ISM Services 15:00Z ทั้งหมด medium MBA Mortgage 12:00Z low ไม่ใส่ blackout ถัดไป NFP 6 พ.ย. CPI 10 พ.ย. PPI 13 พ.ย. FOMC 9 ธ.ค."
+  "notes": "รอบ 06 UTC (4 พ.ย. รอบแรกของวัน) ทองพุ่งแรง OANDA 4021.700 บวก 91.375 (+2.32%) ขึ้นจากรอบก่อนอีก 39.6 จุด ราคาอยู่ติดสูงสุดวัน 4022.070 กรอบวัน 3919.900-4022.070 Previous close 3930.325 Open 3932.610 ทะลุพิวอทกลาง 3991.165 ขึ้นมายืนได้ = โครงสร้างระยะสั้นพลิกขึ้น ราคาเหนือ EMA10 4005.456 / SMA10 3995.850 / Hull9 3923.777 แต่ยังใต้ EMA20 4059.205 ขึ้นไปทุกตัวจนถึง SMA200 4474.850 ADX 31.738 > 25 ตามเทรนด์ + breakout RSI 44.398 (ขึ้นจาก 41.5) Stoch %K 29.018 CCI -76.082 MACD -69.745 Momentum -120.920 Buy สรุป Sell 12/10/4 MA Strong sell 11/1/3 เทคนิครายวันยังขาลง แต่เงินใหญ่ accumulating (ETF Q3 สถิติใหม่ PBOC 23 เดือนติด COT 105,562 ไม่แออัด) จึงเชื่อเงินใหญ่เรื่องทิศ เชื่อเทคนิคเรื่องจังหวะ = ให้น้ำหนักฝั่งซื้อเต็ม 3.0 ทุกแนวรับ ขายแค่ 1.5 ที่แนวต้านใหญ่จุดเดียว ทิ้ง setup sell-3990 เพราะ entry ต่ำกว่าราคาตลาดแล้ว แทนด้วย buy-3995 ที่พิวอทกลางซึ่งพลิกเป็นแนวรับ คง sell-4050 / buy-3850 / buy-3810 ราคาเดิมทุกจุด id ไม่เปลี่ยน EA แตะแค่ลบ sell-3990 กับวาง buy-3995 ข่าว 12 ชม. (ถึง ~18:45Z) ทั้งหมด medium: ADP 13:15Z / Balance of Trade+Treasury Refunding 13:30Z / S&P PMI Final 14:45Z / ISM Services 15:00Z MBA Mortgage 12:00Z low ไม่ใส่ blackout ถัดไป NFP 6 พ.ย. (high) CPI 10 พ.ย. (high) PPI 13 พ.ย. FOMC 9 ธ.ค."
 }
