@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-04T14:44:00Z",
+  "generated_at": "2026-11-04T15:14:54Z",
   "ea_build": "v1.24-ghstate",
   "symbol": "XAUUSD.",
-  "bid": 4044.72, "ask": 4044.81,
-  "balance": 9614.67, "equity": 9633.42,
+  "bid": 4032.74, "ask": 4032.83,
+  "balance": 9614.67, "equity": 9669.36,
   "plan_generated_at": "2026-11-04T14:45:00Z",
   "today": { "closed_pl": 12.58, "trades_opened": 1, "consec_losses": 0 },
   "positions": [
-    { "ticket": 1256592761, "setup": "", "type": "sell", "volume": 0.03, "open_price": 4051.06, "open_time": "2026-11-04T12:32:49Z", "sl": 4051.06, "tp": 4000.00, "initial_sl": 4078.00, "profit": 18.75, "r_now": 0.23, "sl_at_or_past_be": true }
+    { "ticket": 1256592761, "setup": "", "type": "sell", "volume": 0.03, "open_price": 4051.06, "open_time": "2026-11-04T12:32:49Z", "sl": 4051.06, "tp": 4000.00, "initial_sl": 4078.00, "profit": 54.69, "r_now": 0.68, "sl_at_or_past_be": true }
   ],
   "pendings": [],
   "last_action": ""
