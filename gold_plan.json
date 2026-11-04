@@ -1,14 +1,14 @@
 {
   "schema_version": "1.2",
-  "generated_at": "2026-11-04T01:40:53Z",
-  "valid_until": "2026-11-04T04:40:53Z",
+  "generated_at": "2026-11-04T02:40:05Z",
+  "valid_until": "2026-11-04T05:40:05Z",
   "symbol": "XAUUSD",
   "feed": "OANDA",
-  "reference_price": 3961.545,
+  "reference_price": 3939.535,
   "market_state": "trend_down",
   "bias": "short",
   "adx": 32.941,
-  "rsi": 39.148,
+  "rsi": 36.910,
   "smart_money": {
     "state": "accumulating",
     "cot_managed_money_net": 105562,
@@ -18,16 +18,8 @@
     "as_of": "COT 2026-10-27 / ETF ก.ย. 2026 / PBOC ก.ย. 2026"
   },
   "levels": {
-    "resistance": [
-      3973.878,
-      3991.165,
-      4048.925
-    ],
-    "support": [
-      3908.389,
-      3854.711,
-      3842.901
-    ]
+    "resistance": [3973.878, 3991.165, 4048.925],
+    "support": [3908.389, 3854.711, 3842.901]
   },
   "setups": [
     {
@@ -42,9 +34,9 @@
       "tp1": 3953.0,
       "tp2": 3926.0,
       "risk_pct": 1.5,
-      "max_spread": 0.8,
-      "valid_until": "2026-11-04T09:40:53Z",
-      "note": "คงราคาเดิม Camarilla R3 3973.878 + Woodie P 3972.490 ไม่ขยับ 22 รอบ ราคาเด้งขึ้นมา 3961.545 ทำให้ sell limit ห่างแค่ 13.5 จุด (ยังเกิน $3 วางได้) SL 4002 เหนือพิวอทกลาง 3991.165 MA Strong sell 13/1/1 สวนเงินใหญ่ accumulating ใช้น้ำหนักครึ่ง 1.5 R:R 1.81 SL 27"
+      "max_spread": 0.80,
+      "valid_until": "2026-11-04T10:40:05Z",
+      "note": "คงราคาเดิม Camarilla R3 3973.878 + Woodie P 3972.490 ไม่ขยับ 23 รอบ ราคาย่อลงมา 3939.535 ทำให้ sell limit ห่างขึ้นเป็น 35.5 จุด SL 4002 เหนือพิวอทกลาง 3991.165 MA ยัง Strong sell 13/1/1 สวนเงินใหญ่ accumulating ใช้น้ำหนักครึ่ง 1.5 R:R 1.81 SL 27"
     },
     {
       "id": "2026-11-04-sell-3990",
@@ -58,9 +50,9 @@
       "tp1": 3970.0,
       "tp2": 3940.0,
       "risk_pct": 1.5,
-      "max_spread": 0.8,
-      "valid_until": "2026-11-04T09:40:53Z",
-      "note": "คงราคาเดิม พิวอทกลาง Classic/Fibonacci/Camarilla P 3991.165 ทับกับ MA10 cluster 3989.994-3994.808 (EMA10+SMA10 ห่างกัน 4.8 จุด) = แนวต้านแข็งที่สุด sell limit ห่างตลาด 28.5 จุด SL 4018 เหนือทั้งพิวอทและคลัสเตอร์ สวนเงินใหญ่จึง 1.5 R:R 1.79 SL 28"
+      "max_spread": 0.80,
+      "valid_until": "2026-11-04T10:40:05Z",
+      "note": "คงราคาเดิม พิวอทกลาง Classic/Fibonacci/Camarilla P 3991.165 ทับ MA10 cluster 3987.794-3990.808 (SMA10+EMA10 ห่างกัน 3.0 จุด) = แนวต้านแข็งที่สุด sell limit ห่างตลาด 50.5 จุด SL 4018 เหนือทั้งพิวอทและคลัสเตอร์ สวนเงินใหญ่จึง 1.5 R:R 1.79 SL 28"
     },
     {
       "id": "2026-11-04-buy-3850",
@@ -74,9 +66,9 @@
       "tp1": 3874.0,
       "tp2": 3899.0,
       "risk_pct": 3.0,
-      "max_spread": 0.8,
-      "valid_until": "2026-11-04T09:40:53Z",
-      "note": "คงราคาเดิม คลัสเตอร์แนวรับ Fibonacci S1 3854.711 + Camarilla S1 3842.901 ยังไม่ถูกแตะ (ต่ำสุดวัน 3919.900) buy limit ห่างตลาดลงไป 111.5 จุด SL 3823 ใต้คลัสเตอร์ทั้งคู่ ตามเงินใหญ่ accumulating น้ำหนักเต็ม 3.0 (COT 105,562 ต่ำกว่า 200k ไม่แออัด) R:R 1.81 SL 27"
+      "max_spread": 0.80,
+      "valid_until": "2026-11-04T10:40:05Z",
+      "note": "คงราคาเดิม คลัสเตอร์แนวรับ Fibonacci S1 3854.711 + Camarilla S1 3842.901 ยังไม่ถูกแตะ (ต่ำสุดวัน 3919.900) buy limit ห่างตลาดลงไป 89.5 จุด SL 3823 ใต้คลัสเตอร์ทั้งคู่ ตามเงินใหญ่ accumulating น้ำหนักเต็ม 3.0 (COT 105,562 ต่ำกว่า 200k ไม่แออัด) R:R 1.81 SL 27"
     },
     {
       "id": "2026-11-04-buy-3810",
@@ -90,24 +82,14 @@
       "tp1": 3833.0,
       "tp2": 3857.0,
       "risk_pct": 3.0,
-      "max_spread": 0.8,
-      "valid_until": "2026-11-04T09:40:53Z",
-      "note": "คงราคาเดิม แนวรับลึก Camarilla S2 3810.157 เป็นกันชนถัดไปถ้าโซน 3850 ถูกทะลุ buy limit ห่างตลาดลงไป 151.5 จุด SL 3784 ใต้ Camarilla S2 ตามเงินใหญ่ accumulating 3.0 R:R 1.81 SL 26"
+      "max_spread": 0.80,
+      "valid_until": "2026-11-04T10:40:05Z",
+      "note": "คงราคาเดิม แนวรับลึก Camarilla S2 3810.157 เป็นกันชนถัดไปถ้าโซน 3850 ถูกทะลุ buy limit ห่างตลาดลงไป 129.5 จุด SL 3784 ใต้ Camarilla S2 ตามเงินใหญ่ accumulating 3.0 R:R 1.81 SL 26"
     }
   ],
   "news_blackout": [
-    {
-      "from": "2026-11-04T12:45:00Z",
-      "to": "2026-11-04T13:45:00Z",
-      "label": "ADP Employment Change OCT (คาด 69-80K จาก 90K)",
-      "impact": "medium"
-    },
-    {
-      "from": "2026-11-04T13:15:00Z",
-      "to": "2026-11-04T14:00:00Z",
-      "label": "Balance of Trade SEP",
-      "impact": "medium"
-    }
+    { "from": "2026-11-04T12:45:00Z", "to": "2026-11-04T13:45:00Z", "label": "ADP Employment Change OCT (คาด 69-80K จาก 90K)", "impact": "medium" },
+    { "from": "2026-11-04T13:15:00Z", "to": "2026-11-04T14:00:00Z", "label": "Balance of Trade SEP + Treasury Refunding", "impact": "medium" }
   ],
-  "notes": "รอบ 01 UTC (4 พ.ย.) OANDA 3961.545 บวก 31.220 (+0.79%) เด้งแรงจากรอบก่อน +40.2 จุด (3921.345 -> 3961.545) ทะลุ Camarilla R2 3941.134 ขึ้นมาแล้ว ยืนที่ DM P 3960.954 Previous close 3930.325 Open 3932.610 กรอบวันกว้างขึ้นเป็น 3919.900-3963.790 (43.9 จุด จาก 20.8) พิวอททุกชุดเท่าเดิมเป๊ะ 22 รอบติด ADX 32.941 (เท่าเดิม) > 25 = ตามเทรนด์+breakout RSI 39.148 (ขึ้นจาก 35.418) Stoch %K 23.080 CCI -105.590 Buy Momentum -179.485 Buy MACD -74.417 HMA9 3906.207 Buy MA ยัง Strong sell 13/1/1 สรุปรวม Sell 14/9/3 (ดีขึ้นเล็กน้อยจาก 15/8/3) โครงสร้างขายยังไม่เปลี่ยน ราคาอยู่ใต้ MA ทุกตัวยกเว้น HMA9 คงทั้งสี่ setup ระดับราคาเดิมทุกจุด id ไม่เปลี่ยน EA ไม่ต้องแตะ pending ที่วางไว้ ข่าว 12 ชม. ข้างหน้า (ถึง ~13:40Z): MBA Mortgage 12:00Z low ไม่ใส่ blackout / ADP 13:15Z medium / Balance of Trade 13:30Z medium ถัดไปนอกหน้าต่าง 14:45Z S&P PMI Final 15:00Z ISM Services (รอผลเลือกตั้งกลางเทอมสหรัฐด้วย) NFP 6 พ.ย. CPI 10 พ.ย. PPI 13 พ.ย. FOMC 9 ธ.ค."
+  "notes": "รอบ 02 UTC (4 พ.ย.) OANDA 3939.535 บวก 9.210 (+0.23%) ย่อลงจากรอบก่อน -22.0 จุด (3961.545 -> 3939.535) หลุดกลับใต้ DM P 3960.954 และใต้ Camarilla R2 3941.134 Previous close 3930.325 Open 3932.610 กรอบวัน 3919.900-3964.745 พิวอททุกชุดเท่าเดิมเป๊ะ 23 รอบติด ADX 32.941 (เท่าเดิม) > 25 = ตามเทรนด์+breakout RSI 36.910 (ลงจาก 39.148) Stoch %K 20.850 CCI -110.763 Buy Momentum -201.485 Sell MACD -76.172 Sell HMA9 3899.607 Buy MA Strong sell 13/1/1 สรุปรวม Sell 15/9/2 (แย่ลงจาก 14/9/3) ราคาอยู่ใต้ MA ทุกตัวยกเว้น HMA9 โครงสร้างขายยังคุมอยู่ คงทั้งสี่ setup ระดับราคาเดิมทุกจุด id ไม่เปลี่ยน EA ไม่ต้องแตะ pending ที่วางไว้ ข่าว 12 ชม. ข้างหน้า (ถึง ~14:40Z): MBA Mortgage 12:00Z low ไม่ใส่ blackout / ADP 13:15Z medium / Balance of Trade + Treasury Refunding 13:30Z medium ถัดไปนอกหน้าต่าง 14:45Z S&P PMI Final 15:00Z ISM Services NFP 6 พ.ย. CPI 10 พ.ย. PPI 13 พ.ย. FOMC 9 ธ.ค."
 }
