@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-05T21:19:56Z",
+  "generated_at": "2026-11-05T21:50:56Z",
   "ea_build": "v1.24-ghstate",
   "symbol": "XAUUSD.",
-  "bid": 4089.10, "ask": 4089.19,
-  "balance": 9474.67, "equity": 9347.39,
-  "plan_generated_at": "2026-11-05T20:45:00Z",
+  "bid": 4087.51, "ask": 4087.60,
+  "balance": 9474.67, "equity": 9334.67,
+  "plan_generated_at": "2026-11-05T21:45:00Z",
   "today": { "closed_pl": -140.00, "trades_opened": 2, "consec_losses": 1 },
   "positions": [
-    { "ticket": 1256903806, "setup": "GPEA N 2026-11-05-buy-410", "type": "buy", "volume": 0.08, "open_price": 4105.01, "open_time": "2026-11-05T16:20:27Z", "sl": 4073.00, "tp": 4163.00, "initial_sl": 4073.00, "profit": -127.28, "r_now": -0.50, "sl_at_or_past_be": false }
+    { "ticket": 1256903806, "setup": "GPEA N 2026-11-05-buy-410", "type": "buy", "volume": 0.08, "open_price": 4105.01, "open_time": "2026-11-05T16:20:27Z", "sl": 4073.00, "tp": 4163.00, "initial_sl": 4073.00, "profit": -140.00, "r_now": -0.55, "sl_at_or_past_be": false }
   ],
   "pendings": [
     { "ticket": 1256940287, "setup": "GPEA E 2026-11-05-buy-385", "type": "buy_limit", "volume": 0.10, "price": 3850.00, "sl": 3823.00, "tp": 3899.00 },
