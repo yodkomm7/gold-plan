@@ -1,14 +1,14 @@
 {
   "schema_version": "1.5",
-  "generated_at": "2026-11-06T10:42:00Z",
-  "valid_until": "2026-11-06T14:42:00Z",
+  "generated_at": "2026-11-06T11:43:00Z",
+  "valid_until": "2026-11-06T15:43:00Z",
   "symbol": "XAUUSD",
   "feed": "OANDA",
-  "reference_price": 4068.41,
+  "reference_price": 4068.955,
   "market_state": "trend_down",
   "bias": "neutral",
   "adx": 27.308,
-  "rsi": 48.131,
+  "rsi": 48.296,
   "smart_money": {
     "state": "accumulating",
     "cot_managed_money_net": 105562,
@@ -18,8 +18,8 @@
     "as_of": "COT 2026-10-27 / ETF ต.ค. 2026 / PBOC ก.ย. 2026"
   },
   "levels": {
-    "resistance": [4095.068, 4101.628, 4154.302],
-    "support": [4061.056, 4048.925, 4034.105]
+    "resistance": [4095.144, 4101.776, 4154.392],
+    "support": [4061.16, 4048.925, 4034.52]
   },
   "setups": [
     {
@@ -35,8 +35,8 @@
       "tp2": 4110.0,
       "risk_pct": 1.5,
       "max_spread": 0.8,
-      "valid_until": "2026-11-06T17:00:00Z",
-      "note": "กรณี C-fallback ADX 27.308 เกิน 25 แต่ทิศไม่ชัด (ราคา 4068.41 เหนือ EMA20 4065.716 แต่ใต้ EMA50 4154.302) จึงใช้ตารางเงินใหญ่ สวนเงินใหญ่ accumulating ใช้น้ำหนักครึ่ง 1.5 คงราคาเดิม EMA50 ขยับจากรอบ 09 UTC เพียง 0.21 จุด โซนขาย 4154-4166 ยังไม่ถูกแตะ จุดสูงวัน 4107.085 ต่ำกว่า zone_low 46.9 จุด SL 4188 เหนือ EMA50 33.7 จุด R:R 1.79"
+      "valid_until": "2026-11-06T19:00:00Z",
+      "note": "กรณี C-fallback ADX 27.308 เกิน 25 แต่ทิศไม่ชัด (ราคา 4068.955 เหนือ EMA20 4065.933 แต่ใต้ EMA50 4154.392) จึงใช้ตารางเงินใหญ่ สวนเงินใหญ่ accumulating ใช้น้ำหนักครึ่ง 1.5 คงราคาเดิม EMA50 ขยับจากรอบ 10 UTC เพียง 0.09 จุด โซนขาย 4154-4166 ยังไม่ถูกแตะ จุดสูงวัน 4107.085 ต่ำกว่า zone_low 46.9 จุด SL 4188 เหนือ EMA50 33.6 จุด R:R 1.79 pending ticket 1257047055 วางอยู่แล้ว"
     },
     {
       "id": "2026-11-05-buy-4105",
@@ -51,8 +51,8 @@
       "tp2": 4163.0,
       "risk_pct": 3.0,
       "max_spread": 0.8,
-      "valid_until": "2026-11-06T17:00:00Z",
-      "note": "กรณี C-fallback ADX 27.308 ทิศไม่ชัด ตามเงินใหญ่ accumulating 3.0 คงราคาเดิม breakout เหนือคลัสเตอร์ 30 MA SMA30 4095.068 + EMA30 4101.628 (ขยับจากรอบ 09 UTC 0.18 และ 0.34 จุด) entry 4105 เหนือ EMA30 3.4 จุด ราคาตลาด 4068.41 ต่ำกว่าจุดเข้า 36.6 จุด เป็น buy stop SL 4073 เหนือคลัสเตอร์ 20 MA VWMA20 4061.056/EMA20 4065.716/SMA20 4066.799/HMA9 4066.009 R:R 1.81"
+      "valid_until": "2026-11-06T19:00:00Z",
+      "note": "กรณี C-fallback ADX 27.308 ทิศไม่ชัด ตามเงินใหญ่ accumulating 3.0 คงราคาเดิม breakout เหนือคลัสเตอร์ 30 MA SMA30 4095.144 + EMA30 4101.776 (ขยับจากรอบ 10 UTC 0.08 และ 0.15 จุด) entry 4105 เหนือ EMA30 3.2 จุด ราคาตลาด 4068.955 ต่ำกว่าจุดเข้า 36 จุด เป็น buy stop SL 4073 เหนือคลัสเตอร์ 20 MA VWMA20 4061.160/EMA20 4065.933/SMA20 4066.913/HMA9 4066.693 R:R 1.81 (ยังไม่ถูกวางเป็น pending)"
     },
     {
       "id": "2026-11-05-buy-3995",
@@ -67,8 +67,8 @@
       "tp2": 4040.0,
       "risk_pct": 3.0,
       "max_spread": 0.8,
-      "valid_until": "2026-11-06T17:00:00Z",
-      "note": "กรณี C-fallback ADX 27.308 ทิศไม่ชัด ตามเงินใหญ่ accumulating 3.0 คงราคาเดิม พิวอทกลาง 3991.165 ตรงกันสามสาย (Classic/Fibonacci/Camarilla) ไม่ขยับเลยยี่สิบหกรอบติด พร้อม SMA10 4013.503 เหนือขึ้นไป buy limit ห่างตลาดลงไป 73 จุด SL 3970 ใต้พิวอทกลาง R:R 1.80 SL 25"
+      "valid_until": "2026-11-06T19:00:00Z",
+      "note": "กรณี C-fallback ADX 27.308 ทิศไม่ชัด ตามเงินใหญ่ accumulating 3.0 คงราคาเดิม พิวอทกลาง 3991.165 ตรงกันสามสาย (Classic/Fibonacci/Camarilla) ไม่ขยับยี่สิบเจ็ดรอบติด พร้อม SMA10 4013.731 เหนือขึ้นไป buy limit ห่างตลาดลงไป 74 จุด SL 3970 ใต้พิวอทกลาง R:R 1.80 SL 25 pending ticket 1257047056 วางอยู่แล้ว"
     },
     {
       "id": "2026-11-05-buy-3850",
@@ -83,8 +83,8 @@
       "tp2": 3899.0,
       "risk_pct": 3.0,
       "max_spread": 0.8,
-      "valid_until": "2026-11-06T17:00:00Z",
-      "note": "กรณี C-fallback ADX 27.308 ทิศไม่ชัด ตามเงินใหญ่ accumulating 3.0 คงราคาเดิม คลัสเตอร์แนวรับลึก Fibonacci S1 3854.711 + Camarilla S1 3842.901 พิวอทไม่ขยับและยังไม่ถูกแตะ buy limit ห่างตลาดลงไป 218 จุด SL 3823 ใต้คลัสเตอร์ทั้งคู่ R:R 1.81 SL 27"
+      "valid_until": "2026-11-06T19:00:00Z",
+      "note": "กรณี C-fallback ADX 27.308 ทิศไม่ชัด ตามเงินใหญ่ accumulating 3.0 คงราคาเดิม คลัสเตอร์แนวรับลึก Fibonacci S1 3854.711 + Camarilla S1 3842.901 พิวอทไม่ขยับและยังไม่ถูกแตะ buy limit ห่างตลาดลงไป 219 จุด SL 3823 ใต้คลัสเตอร์ทั้งคู่ R:R 1.81 SL 27 pending ticket 1257047057 วางอยู่แล้ว"
     }
   ],
   "position_actions": [],
@@ -102,7 +102,7 @@
       "sell": { "offset_usd": 7.0, "sl_usd": 18.0, "risk_pct": 1.0 },
       "tp_r": 0,
       "trail": { "be_at_usd": 18.0, "be_buffer_usd": 1, "trail_start_usd": 27.0, "trail_dist_usd": 14.0 },
-      "reason": "คะแนนรวม -2 => bias SELL confidence medium. (1) NFP OCT consensus 65K vs TEForecast 40.0K ก่อนหน้า 29K Forecast แย่กว่า consensus => +1 ทองขึ้น (AHE MoM cons 0.3% forecast 0.2%, Private cons 64K forecast 35.0K ทางเดียวกัน) (2) ข้อมูลนำชี้ตัวจริงจะดีกว่า forecast: Initial Claims OCT/31 จริง 189K ดีกว่า consensus 196K, Challenger Job Cuts OCT 43.994K ต่ำกว่า forecast 51.0K, ISM Manufacturing Employment 52.4 เหนือ 50, ADP weekly 16.75K ยังบวก => -1 (3) เทรนด์ทองรายวัน market_state trend_down ราคาใต้ EMA30/50/100/200 => -1 (4) DXY รายวัน Summary Strong buy (MA Strong buy 13/0) ดอลลาร์แข็ง => -1 (5) COT MM net 105,562 อยู่ช่วงปกติ 50k-200k => 0. ระดับจาก ATR(14) H1 = 20.29: offset max(4,0.35xATR)=7.1->7, sl max(10,0.9xATR)=18.3->18, trail_start 1.5xsl=27, trail_dist max(8,0.7xATR)=14.2->14 รวม risk สองฝั่ง 1.75% <= 2.25%"
+      "reason": "คะแนนรวม -2 => bias SELL confidence medium (คงค่าเดิมจากรอบ 10 UTC ไม่เปลี่ยน id/ระดับ) (1) NFP OCT consensus 65K vs TEForecast 40.0K ก่อนหน้า 29K Forecast แย่กว่า consensus => +1 ทองขึ้น (AHE MoM cons 0.3% forecast 0.2%, Private cons 64K forecast 35.0K, Manufacturing cons 5K forecast 12.0K ทิศทางเดียวกัน ตัวเลขยืนยันซ้ำรอบนี้ไม่มีการแก้ consensus) (2) ข้อมูลนำชี้ตัวจริงจะดีกว่า forecast: Initial Claims OCT/31 จริง 189K ดีกว่า consensus 196K, Challenger Job Cuts OCT 43.994K ต่ำกว่า forecast 51.0K, ISM Manufacturing Employment 52.4 เหนือ 50 => -1 (3) เทรนด์ทองรายวัน trend_down ราคา 4068.955 ใต้ EMA30 4101.776/EMA50 4154.392/EMA100 4234.282/EMA200 4260.099 => -1 (4) DXY รายวัน Summary Strong buy ดอลลาร์แข็ง (ค่าจากรอบ 06/10 UTC) => -1 (5) COT MM net 105,562 อยู่ช่วงปกติ 50k-200k => 0. ระดับคำนวณจาก ATR(14) H1 รอบนี้ = 21.64 (Wilder) / 19.51 (ค่าเฉลี่ยตรง 14 แท่ง) ใกล้เคียง 20.29 ของรอบก่อน จึงคง offset 7 / sl 18 / trail_start 27 / trail_dist 14 ไม่ขยับตาม noise รวม risk สองฝั่ง 1.75% <= 2.25%"
     }
   ],
   "news_blackout": [
@@ -111,5 +111,5 @@
     { "from": "2026-11-06T14:50:00Z", "to": "2026-11-06T15:30:00Z", "label": "Michigan Consumer Sentiment Prel NOV", "impact": "medium" },
     { "from": "2026-11-06T17:05:00Z", "to": "2026-11-06T17:45:00Z", "label": "Fed Bowman Speech", "impact": "medium" }
   ],
-  "notes": "รอบ 10 UTC ระดับเดิมทั้ง 4 setup ไม่เปลี่ยน id เดิม EA ไม่ต้องแตะ pending ของเดิม สิ่งที่เพิ่มรอบนี้คือ news_setup ดัก NFP 13:30Z (schema ขึ้น 1.5) ราคา OANDA 4068.410 ลบ 19.865 (-0.49%) จาก previous close 4088.275 ลงจากรอบ 09 UTC 5.18 จุด กรอบวัน 4035.775-4107.085 เท่าเดิม MA ขยับจากรอบ 09 UTC ไม่เกิน 1.6 จุดทุกค่า (EMA50 4154.510->4154.302, EMA30 4101.970->4101.628, SMA30 4095.245->4095.068, EMA20 4066.221->4065.716, SMA20 4067.064->4066.799, EMA10 4035.069->4034.105, SMA10 4014.033->4013.503, VWMA20 4061.245->4061.056, HMA9 4067.599->4066.009, Ichimoku 4048.925 เท่าเดิม, พิวอทกลาง 3991.165 เท่าเดิม) ต่ำกว่าเกณฑ์ 5 จุดทุกค่า จึงคง entry/SL/TP เดิมทั้งหมด ราคา 4068.410 ยืนเหนือคลัสเตอร์ 20 MA 4061-4067 แบบเฉียดฉิว (เหนือ EMA20 2.7 จุด) และเหนือ Ichimoku 4048.925 ADX 27.308 เท่าเดิมสี่รอบติด แต่ทิศไม่ชัดตามนิยาม (เหนือ EMA20 ใต้ EMA50) จึงใช้ตารางเงินใหญ่กรณี C: accumulating ซื้อ 3.0 ขาย 1.5 RSI 48.131 ลงเล็กน้อยจาก 48.517 Summary Neutral (ขาย 9 กลาง 9 ซื้อ 8) Moving Averages Sell (8/1/6) StochRSI 97.557 ยังสูงมาก MACD -49.409 Buy Momentum 72.505 Buy Bull Bear Power 60.327 Sell ATR(14) H1 = 20.29 (ผันผวนสูง แท่ง 01:00Z กวาด 41 จุด) เงินก้อนใหญ่ใช้บล็อกเดิมจากรอบ 06 UTC (ข้อมูลออกสัปดาห์ละครั้ง) ไม่มีไม้เปิดค้าง (positions ว่าง) pending 3 ตัวครบตาม setups 3850/3995/4160 ส่วน buy-4105 ยังไม่ถูกวาง (วันนี้ consec_losses 2 trades_opened 0) position_actions ว่าง ข่าว 12 ชม. ข้างหน้า (ถึง ~22:42Z): NFP+Unemployment+AHE OCT 13:30Z high, Fed Musalem 14:10Z medium, Michigan Sentiment Prel 15:00Z forecast 47.0 medium, Fed Bowman 17:15Z medium (Fed Logan 00:00Z และ Fed Williams 09:30Z ผ่านไปแล้ว) EA จะลบ pending ทั้งหมดและเลื่อน SL มาจุดเข้าที่ 13:00Z ตลาดปิดสัปดาห์ 22:00Z วันนี้ (เวลาฤดูหนาวสหรัฐ) รอบนี้ hour=10 ไม่ใช่รอบตั้ง alert TradingView (6/12/16) alert เดิม Crossing 3995.000 ยัง Active"
+  "notes": "รอบ 11 UTC ระดับเดิมทั้ง 4 setup ไม่เปลี่ยน id EA ไม่ต้องแตะ pending ของเดิม เปลี่ยนเฉพาะเวลาและขยาย valid_until ของ setup จาก 17:00Z เป็น 19:00Z (ให้ pending รอได้ถึงก่อนตลาดปิดสัปดาห์) ราคา OANDA 4068.955 ลบ 19.32 (-0.47%) จาก previous close 4088.275 ขึ้นจากรอบ 10 UTC 0.55 จุด กรอบวัน 4035.775-4107.085 เท่าเดิม MA ขยับจากรอบ 10 UTC ไม่เกิน 0.7 จุดทุกค่า (EMA50 4154.302->4154.392, EMA30 4101.628->4101.776, SMA30 4095.068->4095.144, EMA20 4065.716->4065.933, SMA20 4066.799->4066.913, EMA10 4034.105->4034.520, SMA10 4013.503->4013.731, VWMA20 4061.056->4061.160, HMA9 4066.009->4066.693, Ichimoku 4048.925 เท่าเดิม, พิวอทกลาง 3991.165 เท่าเดิม) จึงคง entry/SL/TP เดิมทั้งหมด ราคายืนเหนือคลัสเตอร์ 20 MA 4061-4067 แบบเฉียดฉิว (เหนือ EMA20 3.0 จุด) และเหนือ Ichimoku 4048.925 ADX 27.308 เท่าเดิมห้ารอบติด ทิศไม่ชัดตามนิยาม (เหนือ EMA20 ใต้ EMA50) จึงใช้ตารางเงินใหญ่กรณี C: accumulating ซื้อ 3.0 ขาย 1.5 RSI 48.296 ขึ้นเล็กน้อยจาก 48.131 Summary Neutral (ขาย 9 กลาง 9 ซื้อ 8) Moving Averages Sell (8/1/6) StochRSI 97.828 ยังสูงมาก MACD -49.227 Buy Momentum 74.785 Buy Bull Bear Power 59.675 Sell ATR(14) H1 = 21.64 เงินก้อนใหญ่ใช้บล็อกเดิมจากรอบ 06 UTC (ข้อมูลออกสัปดาห์ละครั้ง) สถานะไม้จาก GitHub generated_at 11:12:58Z (เก่า 30 นาที อยู่ในเกณฑ์ 45 นาที) ไม่มีไม้เปิดค้าง positions ว่าง pending 3 ตัวครบ 3850/3995/4160 ส่วน buy-4105 ยังไม่ถูกวาง (วันนี้ consec_losses 2 trades_opened 0 balance 9218.59) position_actions ว่างเพราะไม่มีไม้เปิด ข่าว 12 ชม. ข้างหน้า (ถึง ~23:43Z): NFP+Unemployment+AHE OCT 13:30Z high (cons 65K forecast 40.0K prev 29K), Fed Musalem 14:10Z medium, Michigan Sentiment Prel 15:00Z cons 48 forecast 47.0 medium, Fed Bowman 17:15Z medium ตรวจปฏิทินรอบนี้แล้วไม่มีรายการใหม่และ consensus ไม่ถูกแก้ EA จะลบ pending ทั้งหมดและเลื่อน SL มาจุดเข้าที่ 13:00Z news_setup ดัก NFP คงค่าเดิมทุกตัว ตลาดปิดสัปดาห์ 22:00Z วันนี้ รอบนี้ hour=11 ไม่ใช่รอบตั้ง alert TradingView (6/12/16) เบราว์เซอร์ที่ใช้รอบนี้คือ browser pane (ส่วนขยาย Chrome ต่อไม่ได้)"
 }
