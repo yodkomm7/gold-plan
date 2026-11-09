@@ -1,14 +1,14 @@
 {
   "schema_version": "1.5",
-  "generated_at": "2026-11-06T20:41:16Z",
-  "valid_until": "2026-11-06T21:52:00Z",
+  "generated_at": "2026-11-09T02:41:19Z",
+  "valid_until": "2026-11-09T06:41:19Z",
   "symbol": "XAUUSD",
   "feed": "OANDA",
-  "reference_price": 4063.625,
-  "market_state": "trend_down",
-  "bias": "short",
-  "adx": 27.382,
-  "rsi": 47.755,
+  "reference_price": 4131.15,
+  "market_state": "range",
+  "bias": "neutral",
+  "adx": 25.622,
+  "rsi": 52.822,
   "smart_money": {
     "state": "accumulating",
     "cot_managed_money_net": 105562,
@@ -18,25 +18,41 @@
     "as_of": "COT 2026-10-27 / ETF ต.ค. 2026 / PBOC ก.ย. 2026"
   },
   "levels": {
-    "resistance": [4094.893, 4101.29, 4107.085],
-    "support": [4060.913, 4048.925, 4029.83]
+    "resistance": [4134.135, 4153.423, 4191.19],
+    "support": [4119.845, 4099.606, 4068.411]
   },
   "setups": [
     {
-      "id": "2026-11-06-sell-4095",
-      "direction": "sell",
-      "zone_low": 4090.0,
-      "zone_high": 4103.0,
-      "confirm": "h1_close_below",
-      "confirm_level": 4094.0,
-      "entry": 4094.0,
-      "stop_loss": 4122.0,
-      "tp1": 4072.0,
-      "tp2": 4048.0,
-      "risk_pct": 3.0,
+      "id": "2026-11-09-buy-4105",
+      "direction": "buy",
+      "zone_low": 4095.0,
+      "zone_high": 4106.0,
+      "confirm": "h1_close_above",
+      "confirm_level": 4104.0,
+      "entry": 4104.0,
+      "stop_loss": 4078.0,
+      "tp1": 4126.0,
+      "tp2": 4152.0,
+      "risk_pct": 2.0,
       "max_spread": 0.8,
-      "valid_until": "2026-11-06T21:57:00Z",
-      "note": "กรณี A (ADX 27.382 เกิน 25 + ราคา 4063.625 ใต้ทั้ง EMA20 4065.217 และ EMA50 4154.096 => trend_down) ไม้ตามเทรนด์ => 3.0 เงินใหญ่ accumulating ขัดกับเทรนด์ แต่กรณี A ให้เทรนด์ตัดสินทิศ จุด pullback คลัสเตอร์ SMA30 4094.893 + EMA30 4101.290 โซน 4090-4103 คงราคาเดิมทุกค่าจากรอบก่อน (MA ขยับไม่ถึง 0.1 จุด) entry 4094 ห่างราคา 30.4 จุด SL 4122 เสี่ยง 28 TP2 4048 (ก่อน Ichimoku base 4048.925) R:R 1.64"
+      "valid_until": "2026-11-09T10:41:00Z",
+      "note": "กรณี B (ADX 25.622 แต่ไม่มีทิศชัด: ราคา 4131.15 อยู่เหนือ EMA20 4072.006 แต่ใต้ EMA50 4153.423 => กรณี A ใช้ไม่ได้) ไม้ตามทิศ EMA ระยะสั้น (ราคาเหนือ EMA10/20/30) => 2.0 ตามเงินใหญ่ accumulating (COT 105562 ไม่ถึง 200k ไม่มีเพดานฝั่งซื้อ) จุด pullback คลัสเตอร์ SMA30 4095.634 + EMA30 4103.577 โซน 4095-4106 entry 4104 ห่างราคา 27.2 จุด SL 4078 เสี่ยง 26 (ใต้คลัสเตอร์ 17.6 เหนือ EMA20 ยังพอหายใจ) TP2 4152 ชน EMA50 R:R 1.85"
+    },
+    {
+      "id": "2026-11-09-buy-4070",
+      "direction": "buy",
+      "zone_low": 4058.0,
+      "zone_high": 4073.0,
+      "confirm": "h1_close_above",
+      "confirm_level": 4070.0,
+      "entry": 4070.0,
+      "stop_loss": 4042.0,
+      "tp1": 4092.0,
+      "tp2": 4116.0,
+      "risk_pct": 1.0,
+      "max_spread": 0.8,
+      "valid_until": "2026-11-09T10:41:00Z",
+      "note": "กรณี B ไม้ตามทิศ EMA ตารางให้ 2.0 แต่กดเหลือ 1.0 เพราะมีไม้ซื้ออีกตัวที่ 4104 อยู่แล้ว ไม่แบกฝั่งซื้อซ้อน 4% ในเหตุการณ์เดียวกัน (บทเรียน 24 ก.ย./7 ต.ค.) ห่างจากไม้ซื้อตัวบน 34 จุด (เกิน 15) โซนคลัสเตอร์ VWMA20 4058.553 + SMA20 4064.816 + EMA20 4072.006 entry 4070 ห่างราคา 61.2 จุด SL 4042 (ใต้ Ichimoku base 4043.858) เสี่ยง 28 TP2 4116 R:R 1.64 ตามเงินใหญ่ accumulating"
     },
     {
       "id": "2026-11-05-sell-4160",
@@ -49,30 +65,20 @@
       "stop_loss": 4188.0,
       "tp1": 4136.0,
       "tp2": 4110.0,
-      "risk_pct": 2.0,
+      "risk_pct": 1.5,
       "max_spread": 0.8,
-      "valid_until": "2026-11-06T21:57:00Z",
-      "note": "กรณี A ไม้ตามเทรนด์ที่ EMA50 4154.096 ตารางให้ 3.0 แต่กดเหลือ 2.0 เพราะมีไม้ขายอีกตัวที่ 4094 อยู่แล้ว ไม่แบกความเสี่ยงฝั่งขายซ้อน 6% ในเหตุการณ์เดียวกัน (บทเรียน 24 ก.ย./7 ต.ค.) คงราคาเดิมทุกค่า จุดสูงวัน 4107.085 ต่ำกว่า zone_low 47 จุด SL 4188 เสี่ยง 28 R:R 1.79 สวนเงินใหญ่ accumulating"
-    },
-    {
-      "id": "2026-11-05-buy-3850",
-      "direction": "buy",
-      "zone_low": 3843.0,
-      "zone_high": 3857.0,
-      "confirm": "h1_close_above",
-      "confirm_level": 3850.0,
-      "entry": 3850.0,
-      "stop_loss": 3823.0,
-      "tp1": 3874.0,
-      "tp2": 3899.0,
-      "risk_pct": 1.0,
-      "max_spread": 0.8,
-      "valid_until": "2026-11-06T21:57:00Z",
-      "note": "กรณี A ไม้สวนเทรนด์ => 1.0 และเป็นไม้สวนเทรนด์ตัวเดียวตามเพดาน 'สูงสุด 1 ไม้' ผ่านเงื่อนไขห่างราคา >= 1.5 x ATR รายวัน: ห่าง 213.6 จุด ขณะ ATR รายวันประมาณ 77 (ช่วงวันนี้ 4029.830-4107.085) 1.5xATR ประมาณ 116 ใกล้ Fibonacci S1 3854.7 คงราคาเดิมทุกค่า SL 3823 เสี่ยง 27 TP2 3899 R:R 1.81 ตามเงินใหญ่ accumulating"
+      "valid_until": "2026-11-09T10:41:00Z",
+      "note": "คงระดับและ id เดิมจากรอบก่อน: โซน 4154-4166 ยังคลุม EMA50 ที่ขยับจาก 4154.096 มา 4153.423 (ต่าง 0.7 จุด) และราคายังไม่แตะ SL 4188 จึงไม่ขยับเพื่อไม่ให้ pending กระพริบ กรณี B ไม้สวนทิศ EMA ระยะสั้น => 1.5 สวนเงินใหญ่ accumulating แต่ตามโครงสร้าง EMA50/100/200 ที่ยังเป็นขาลง entry 4160 ห่างราคา 28.9 จุด SL 4188 เสี่ยง 28 TP2 4110 R:R 1.79"
     }
   ],
   "position_actions": [],
   "news_setups": [],
-  "news_blackout": [],
-  "notes": "ราคา OANDA 4063.625 (-24.650 / -0.60% จาก previous close 4088.275) ช่วงวัน 4029.830-4107.085 โครงสร้างเหมือนรอบก่อนทุกจุด: ราคายังใต้ EMA20 4065.217 และ EMA50 4154.096 ADX 27.382 เกิน 25 => กรณี A trend_down เทรนด์ตัดสินทิศ คงระดับ setup เดิมทั้ง 3 ตัวไม่ขยับ (MA ขยับไม่ถึง 0.1 จุด ไม่มีเหตุให้เปลี่ยน id/ราคา) Moving Averages Strong sell (Sell 11 ตัว) Oscillators Neutral RSI 47.755 StochRSI 96.939 ยังค้างสูงสุดโซน MACD -49.827 Momentum 67.260 Buy HMA9 4064.435 Sell เงินใหญ่ accumulating (COT 105562 ไม่เกิน 200k ไม่มีเพดานฝั่งซื้อ) ขัดกับเทรนด์ แต่ ADX เกิน 25 ให้เชื่อเทรนด์ ไม้ค้าง: GitHub state generated_at 2026-11-06T20:08:58Z (เก่า ~36 นาที ยังไม่เกิน 45) EA v1.24-ghstate bid 4065.13 balance 9218.59 equity 9218.59 positions ว่าง pendings ว่าง last_action ว่าง => position_actions [] ส่วนต่างฟีด broker 4065.13 vs OANDA 4063.625 = 1.5 ยังไม่เกิน 5 *** ปัญหาค้างรอบที่ 7 ติดต่อกัน: pendings ว่างทั้งที่มี setup ถูกต้อง 3 ตัว trades_opened วันนี้ 0 consec_losses 2 สงสัย daily stop / consec-loss cap ของ EA หรือ AutoTrading ปิด ต้องเปิด Experts/Journal log ดูสาเหตุ แผนดีแค่ไหนก็ไร้ประโยชน์ถ้า EA ไม่วางออเดอร์ ข่าว: 12 ชม.ข้างหน้าไม่มีข่าวสหรัฐ (NFP 13:30Z actual 165K vs consensus 65K และ Michigan 15:00Z 51.0 vs 48 ออกแล้วทั้งคู่ แรงกว่าคาด หนุนดอลลาร์ กดทอง) Consumer Credit 20:00Z (low) ผ่านไปแล้ว ตัวถัดไป CPI 10 พ.ย. 13:30Z => news_blackout [] news_setups [] *** valid_until แผน 21:52Z สั้นกว่า 4 ชม.โดยเจตนา เพราะตลาดปิดสัปดาห์ 22:00Z ศุกร์ ให้ EA ลบ pending ก่อนปิด ไม่ค้างข้ามช่องว่างวันจันทร์ setup 21:57Z ยังยาวกว่าอายุแผน เงินก้อนใหญ่คัดลอกบล็อกเดิมจากรอบ 06 UTC ตามกติกา (รอบนี้ 20 UTC) *** หมายเหตุ: Chrome extension ต่อไม่ได้รอบนี้ ใช้เบราว์เซอร์ในแอปแทน ได้ข้อมูล OANDA ครบ"
+  "news_blackout": [
+    { "from": "2026-11-09T13:25:00Z", "to": "2026-11-09T13:55:00Z", "label": "Fed Bowman Speech", "impact": "medium" },
+    { "from": "2026-11-09T14:45:00Z", "to": "2026-11-09T15:15:00Z", "label": "Fed Goolsbee Speech + Wholesale Inventories SEP", "impact": "medium" },
+    { "from": "2026-11-09T15:50:00Z", "to": "2026-11-09T16:15:00Z", "label": "NY Fed Consumer Inflation Expectations OCT", "impact": "low" },
+    { "from": "2026-11-09T17:00:00Z", "to": "2026-11-09T17:30:00Z", "label": "Fed Barkin + Bowman Speech", "impact": "medium" },
+    { "from": "2026-11-09T19:45:00Z", "to": "2026-11-09T20:15:00Z", "label": "Fed Goolsbee Speech", "impact": "medium" }
+  ],
+  "notes": "ราคา OANDA 4131.15 (+60.560 / +1.49% จาก previous close 4070.590) ช่วงวัน 4054.395-4134.135 สุดสัปดาห์กระโดดขึ้นแรง: จากรอบก่อน (ศุกร์ 4063.625) ขึ้นมา +67.5 จุด ราคาทะลุขึ้นเหนือ EMA10 4051.825 / SMA20 4064.816 / EMA20 4072.006 / SMA30 4095.634 / EMA30 4103.577 และ HMA9 4119.845 แล้ว แต่ยังติดใต้ EMA50 4153.423 / SMA50 4191.190 / EMA100 4232.211 / EMA200 4258.801 => ไม่เข้าเงื่อนไขทิศชัดทั้ง trend_up และ trend_down ADX 25.622 (คาบเส้น) จึงใช้กรณี B ก้ำกึ่ง market_state range bias neutral โครงสร้าง MA ยังเรียงแบบขาลง (EMA10 ต่ำกว่า EMA20 ต่ำกว่า EMA30 ต่ำกว่า EMA50) แต่ราคาเด้งทะลุขึ้นมาเหนือตัวสั้น Summary Buy (MA Buy 8 Sell 6 / Oscillators Neutral 9) RSI 52.822 Neutral StochRSI 97.828 ค้างสูงสุดโซน MACD -38.332 Buy Momentum 112.515 Buy เงินใหญ่ accumulating (คัดลอกจากรอบก่อน ไม่ใช่รอบ 06 UTC) เลิกใช้ setup 2026-11-06-sell-4095 (entry 4094 ตกไปอยู่ใต้ราคาแล้ว ไม่เป็น sell limit ที่สมเหตุสมผล) และ 2026-11-05-buy-3850 (ห่างราคา 281 จุด เกินกรอบที่มีความหมาย) คง 2026-11-05-sell-4160 ไว้ตามเดิมที่ EMA50 เพิ่มไม้ซื้อ pullback 2 ระดับที่คลัสเตอร์ EMA30 (4104) และ EMA20 (4070) ความเสี่ยงรวมถ้าเติมทุกไม้ 4.5% ไม้ค้าง: GitHub state generated_at 2026-11-09T02:15:03Z (เก่า 26 นาที ยังไม่เกิน 45) EA v1.24-ghstate bid 4130.51 balance 9218.59 equity 9218.59 positions ว่าง pendings ว่าง (แผนเดิมหมดอายุ 2026-11-06T21:52 EA จึงลบ pending ทิ้งตามปกติ) last_action ว่าง => position_actions [] ส่วนต่างฟีด broker 4130.51 vs OANDA 4131.15 = 0.64 ไม่เกิน 5 ไม่มีข่าว high ใน 4 ชม. (CPI คือ 10 พ.ย. 13:30Z) => news_setups []"
 }
