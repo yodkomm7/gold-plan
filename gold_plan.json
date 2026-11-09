@@ -1,14 +1,14 @@
 {
   "schema_version": "1.5",
-  "generated_at": "2026-11-09T15:41:25Z",
-  "valid_until": "2026-11-09T19:41:25Z",
+  "generated_at": "2026-11-09T16:42:40Z",
+  "valid_until": "2026-11-09T20:42:40Z",
   "symbol": "XAUUSD",
   "feed": "OANDA",
-  "reference_price": 4119.02,
+  "reference_price": 4115.01,
   "market_state": "range",
   "bias": "neutral",
   "adx": 25.622,
-  "rsi": 51.997,
+  "rsi": 51.818,
   "smart_money": {
     "state": "accumulating",
     "cot_managed_money_net": 103614,
@@ -18,8 +18,8 @@
     "as_of": "COT 2026-11-03 / ETF ต.ค. 2026 / PBOC ต.ค. 2026"
   },
   "levels": {
-    "resistance": [4134.135, 4152.968, 4190.958],
-    "support": [4102.828, 4070.900, 4054.395]
+    "resistance": [4134.135, 4152.871, 4190.909],
+    "support": [4102.669, 4070.666, 4054.395]
   },
   "setups": [
     {
@@ -36,7 +36,7 @@
       "risk_pct": 2.0,
       "max_spread": 0.80,
       "valid_until": "2026-11-09T23:41:00Z",
-      "note": "คงระดับและ id เดิมเป็นรอบที่หก คลัสเตอร์รายวัน VWMA20 4059.928 + SMA20 4064.235 + EMA20 4070.900 (ขยับจากรอบ 14 UTC ไม่ถึง 0.2 จุด) โซน 4058-4073 ยังคลุมครบ ราคายังไม่แตะ SL 4042 กรณี B (ADX รายวัน 25.622 แต่ราคา 4119.02 เหนือ EMA20 4070.900 และใต้ EMA50 4152.968 => ไม่มีทิศชัด ใช้กรณี A ไม่ได้) ไม้ตามทิศ EMA ระยะสั้น => ตารางกรณี B ให้ 2.0 ไม่มีไม้ค้างและไม่มี pending จึงไม่ต้องกดน้ำหนักกันความเสี่ยงซ้อน ตามเงินใหญ่ accumulating COT 103614 ยังต่ำกว่า 200k ไม่ต้องกดฝั่งซื้อ SL 4042 ใต้ Ichimoku base 4043.858 เสี่ยง 28 TP2 4116 R:R 1.64"
+      "note": "คงระดับและ id เดิมเป็นรอบที่เจ็ด EA วาง buy_limit #1257367012 ที่ 4070 SL 4042 TP 4116 vol 0.06 เรียบร้อยแล้ว (ยืนยันจากไฟล์สถานะ 16:25:44Z) จึงห้ามขยับราคาเด็ดขาด คลัสเตอร์รายวัน VWMA20 4059.973 + SMA20 4064.112 + EMA20 4070.666 (ขยับจากรอบ 15 UTC ไม่ถึง 0.3 จุด) โซน 4058-4073 ยังคลุมครบ ราคายังไม่แตะ SL 4042 กรณี B (ADX รายวัน 25.622 แต่ราคา 4115.01 เหนือ EMA20 4070.666 และใต้ EMA50 4152.871 => ไม่มีทิศชัด ใช้กรณี A ไม่ได้) ไม้ตามทิศ EMA ระยะสั้น => ตารางกรณี B ให้ 2.0 ตามเงินใหญ่ accumulating COT 103614 ยังต่ำกว่า 200k ไม่ต้องกดฝั่งซื้อ SL 4042 ใต้ Ichimoku base 4043.858 เสี่ยง 28 TP2 4116 R:R 1.64"
     },
     {
       "id": "2026-11-05-sell-4160",
@@ -52,16 +52,15 @@
       "risk_pct": 1.5,
       "max_spread": 0.80,
       "valid_until": "2026-11-09T23:41:00Z",
-      "note": "คงระดับและ id เดิมไม่ขยับ โซน 4154-4166 ยังคุม EMA50 รายวัน 4152.968 (ขยับจาก 4153.024 เพียง 0.06 จุด) ราคายังไม่แตะ SL 4188 กรณี B ไม้สวนทิศ EMA ระยะสั้น => 1.5 สวนเงินใหญ่ accumulating แต่ตามโครงสร้างระยะกลางที่ EMA50/SMA50/SMA100/EMA100/EMA200/SMA200 รายวันเป็น Sell ทุกตัว entry 4160 ห่างราคา 41 จุด SL 4188 เสี่ยง 28 TP2 4110 R:R 1.79"
+      "note": "คงระดับและ id เดิมไม่ขยับ EA วาง sell_limit #1257367013 ที่ 4160 SL 4188 TP 4110 vol 0.05 แล้ว โซน 4154-4166 ยังคุม EMA50 รายวัน 4152.871 (ขยับจาก 4152.968 เพียง 0.1 จุด) ราคายังไม่แตะ SL 4188 กรณี B ไม้สวนทิศ EMA ระยะสั้น => 1.5 สวนเงินใหญ่ accumulating แต่ตามโครงสร้างระยะกลางที่ EMA50/SMA50/SMA100/EMA100/EMA200/SMA200 รายวันเป็น Sell ทุกตัว entry 4160 ห่างราคา 45 จุด SL 4188 เสี่ยง 28 TP2 4110 R:R 1.79"
     }
   ],
   "position_actions": [],
   "news_setups": [],
   "news_blackout": [
-    { "from": "2026-11-09T15:45:00Z", "to": "2026-11-09T16:15:00Z", "label": "Consumer Inflation Expectations OCT", "impact": "low" },
     { "from": "2026-11-09T17:00:00Z", "to": "2026-11-09T17:30:00Z", "label": "Fed Barkin + Bowman Speech", "impact": "medium" },
     { "from": "2026-11-09T19:45:00Z", "to": "2026-11-09T20:15:00Z", "label": "Fed Goolsbee Speech", "impact": "medium" },
     { "from": "2026-11-10T08:45:00Z", "to": "2026-11-10T09:15:00Z", "label": "Fed Waller Speech", "impact": "medium" }
   ],
-  "notes": "รอบ 15 UTC ราคา OANDA 4119.02 (+48.43 / +1.19% จาก previous close 4070.590) ช่วงวัน 4054.395-4134.135 ขยับขึ้นจากรอบ 14 UTC (4117.52) เพียง 1.5 จุด โครงสร้างไม่เปลี่ยนเลย ไฟล์สถานะไม้ 15:35:44Z (สด 6 นาที) positions ว่าง pendings ว่าง balance = equity = 9401.57 today closed_pl +182.98 trades_opened 1 consec_losses 0 => position_actions [] ตามกฎ (ไม่มีไม้ให้จัดการ) last_action ยังเป็นการย้าย TP 08:54Z ของไม้ที่ปิดกำไรไปแล้ว ราคาเหนือ SMA10 4023.821 / Ichimoku base 4043.858 / EMA10 4049.713 / VWMA20 4059.928 / SMA20 4064.235 / EMA20 4070.900 / SMA30 4095.247 / EMA30 4102.828 / HMA9 4116.361 แต่ใต้ EMA50 4152.968 / SMA50 4190.958 / SMA100 4201.325 / EMA100 4231.981 / EMA200 4258.685 / SMA200 4458.015 => ไม่มีทิศชัด ใช้กรณี B market_state range bias neutral ADX รายวัน 25.622 RSI 51.997 Summary รายวัน Buy (MA Sell 6 Neutral 1 Buy 8 / Oscillators Sell 0 Neutral 9 Buy 2) StochRSI 97.828 ยังค้างสูงเป็นสัญญาณว่าแรงขึ้นระยะสั้นตึงตัว MACD -39.258 Buy Momentum 100.900 Buy Williams %R -10.423 ชิดเพดาน เงินใหญ่ accumulating (คัดลอกบล็อกเดิมจากรอบ 06 UTC ตามกฎ ไม่ดึงใหม่) setup คงเดิมทั้งคู่ไม่ขยับราคาเลย คง id เดิมกัน pending กระพริบ: buy 4070 risk 2.0 + sell 4160 risk 1.5 setup valid_until 23:41Z (8 ชม.) ปฏิทินตรวจใหม่รอบนี้: วันนี้ไม่มีข่าว high เหลือ Consumer Inflation Expectations OCT 16:00Z (low · forecast 3.8% vs prev 3.9%) + Fed Barkin/Bowman 17:15Z + Fed Goolsbee 20:00Z (medium) และพรุ่งนี้ Fed Waller 09:00Z (medium) => news_setups [] ข่าวแรงถัดไป CPI ต.ค. 10 พ.ย. 13:30Z (อีก ~21.8 ชม. · Inflation MoM consensus 0.3% vs TEforecast 0.2% prev 0.6% / Core MoM consensus 0.2% forecast 0.2% prev 0.3% / YoY consensus 3.9% forecast 3.8% prev 3.7% / Core YoY consensus 2.8% forecast 2.7% prev 2.6% — forecast ต่ำกว่าหรือเท่า consensus ทุกตัว ข้อ ① +1 ทองขึ้น) จะวาง news_setup เมื่อเข้าหน้าต่าง 4 ชม. ประมาณรอบ 09-10 UTC วันที่ 10 พ.ย. ข้อสังเกตที่ยังค้างต่อเนื่อง 3 รอบ: pendings เป็นลิสต์ว่างทั้งที่ setup ทั้งสองยัง valid — entry buy 4070 ห่างราคา 49 จุด และ sell 4160 ห่าง 41 จุด EA อาจมีเงื่อนไขระยะโซนที่ยังไม่เข้า แต่ถ้ารอบหน้ายังว่างควรตรวจ log MT5 ว่าติด margin หรือ max-orders (ยังไม่เข้าเกณฑ์ร้ายแรงจึงไม่เตือน) ประเมินตรง ๆ: รอบนี้ไม่มีอะไรทำนอกจากรักษาแผนเดิมให้สด ราคาที่ขึ้นมา ~65 จุดจาก low ของวันยังอ่านเป็นการเด้งกลับในกรอบใต้ EMA50 รายวัน ไม่ใช่เทรนด์ขึ้นใหม่ — EMA50 4152.968 คือเส้นตัดสิน ถ้า H1 ปิดเหนือเส้นนี้ค่อยทบทวนเป็น trend_up เบราว์เซอร์: Chrome ของผู้ใช้ยังต่อไม่ได้ ใช้เบราว์เซอร์ในแอปแทน ได้ข้อมูลครบ จำลองบน demo ไม่ใช่คำแนะนำการลงทุน"
+  "notes": "รอบ 16 UTC ราคา OANDA 4115.01 (+44.42 / +1.09% จาก previous close 4070.590) ช่วงวัน 4054.395-4134.135 (ไม่เปลี่ยนจากรอบ 15 UTC) ราคาย่อลงจากรอบก่อน 4 จุด โครงสร้างเหมือนเดิมทุกตัว ความคืบหน้าที่ดีของรอบนี้: pendings ไม่ว่างแล้ว ไฟล์สถานะ 16:25:44Z (สด 17 นาที) ยืนยัน EA วาง buy_limit #1257367012 @4070 (0.06 lot) + sell_limit #1257367013 @4160 (0.05 lot) ครบทั้งสอง setup => ข้อสังเกตที่ค้างมา 3 รอบเรื่อง pendings ว่างถือว่าคลี่คลาย ไม่ต้องตรวจ log MT5 positions ยังว่าง จึง position_actions [] ตามกฎ balance = equity = 9401.57 today closed_pl +182.98 trades_opened 1 consec_losses 0 last_action ยังเป็นการย้าย TP 08:54Z ของไม้ที่ปิดไปแล้ว (ไม่ได้สั่งอะไรใหม่รอบก่อน จึงไม่มีอะไรต้องตรวจผล) แท่ง H1 ล่าสุดที่ปิด 15:00Z = O4120.665 H4122.95 L4113.55 C4120.655 แท่ง 16:00Z กำลังวิ่ง high 4130.99 แล้วถอยมา 4115 — ยังเป็นการแกว่งใต้ day high 4134.135 ไม่ใช่ breakout ราคาเหนือ SMA10 4023.575 / Ichimoku base 4043.858 / EMA10 4049.266 / VWMA20 4059.973 / SMA20 4064.112 / SMA30 4095.165 / EMA30 4102.669 / HMA9 4115.623 (ชิดราคาพอดี) แต่ใต้ EMA50 4152.871 / SMA50 4190.909 / SMA100 4201.301 / EMA100 4231.933 / EMA200 4258.661 / SMA200 4458.003 => ไม่มีทิศชัด ใช้กรณี B market_state range bias neutral ADX รายวัน 25.622 RSI 51.818 Summary รายวัน Buy (MA Sell 6 Neutral 1 Buy 8 / Oscillators Sell 0 Neutral 9 Buy 2) StochRSI 97.828 ค้างสูงต่อเนื่องหลายรอบ = แรงขึ้นระยะสั้นตึงตัว Williams %R -11.312 ชิดเพดาน MACD -39.454 Buy Momentum 98.440 Buy เงินใหญ่ accumulating (คัดลอกบล็อกเดิมจากรอบ 06 UTC ตามกฎ ไม่ดึงใหม่) setup คงเดิมทั้งคู่ไม่ขยับราคาแม้แต่จุดเดียว คง id เดิมเพื่อไม่ให้ EA ลบ pending ที่วางสำเร็จแล้วไปวางใหม่ ปฏิทินตรวจใหม่รอบนี้ (tradingeconomics เวลาไทย -7): Consumer Inflation Expectations OCT 16:00Z ออกแล้ว actual 3.9% เท่า previous (ต่ำกว่า forecast 3.8% เล็กน้อย = ไม่มีผล) เหลือวันนี้ Fed Barkin + Bowman 17:15Z และ Fed Goolsbee 20:00Z (medium ทั้งคู่) พรุ่งนี้ Fed Waller 09:00Z (medium) ไม่มีข่าว high ใน 4 ชม. => news_setups [] ข่าวแรงถัดไป CPI ต.ค. 10 พ.ย. 13:30Z (อีก ~20.8 ชม. · Inflation MoM consensus 0.3% vs TEforecast 0.2% prev 0.6% / Core MoM consensus 0.2% forecast 0.2% prev 0.3% / YoY consensus 3.9% forecast 3.8% prev 3.7% / Core YoY consensus 2.8% forecast 2.7% prev 2.6% — forecast ต่ำกว่าหรือเท่า consensus ทุกตัว ข้อ ① +1 ทองขึ้น) จะวาง news_setup เมื่อเข้าหน้าต่าง 4 ชม. ประมาณรอบ 09-10 UTC วันที่ 10 พ.ย. และต้องเช็กด้วยว่า pending ปกติต้องถูกลบ 30 นาทีก่อนข่าว high ตามกฎ blackout ขั้นที่ 8 (alert TradingView) รอบนี้ทำไม่ได้: เบราว์เซอร์ในแอปไม่ได้ล็อกอิน TradingView (หน้า alerts ขึ้น 'Never miss a trade again / Join for free') และ Chrome ของผู้ใช้ยังต่อไม่ได้ จึงไม่มี alert ตัวใดอยู่และสร้างใหม่ไม่ได้ — ไม่เข้าเกณฑ์ร้ายแรง แต่ถ้าต้องการ alert ต้องล็อกอิน TradingView ในเบราว์เซอร์ของแอปหรือเปิด Chrome ไว้ ประเมินตรง ๆ: รอบนี้ไม่มีอะไรต้องตัดสินใจ ราคายังอยู่กลางกรอบ 4054-4134 ห่างทั้งสอง entry 45-46 จุด งานที่ทำคือรักษาแผนให้สดและไม่ไปรบกวน pending ที่วางรออยู่ EMA50 รายวัน 4152.871 ยังเป็นเส้นตัดสิน ถ้า H1 ปิดเหนือเส้นนี้ค่อยทบทวนเป็น trend_up และต้องทบทวน setup ขายที่ 4160 ด้วย จำลองบน demo ไม่ใช่คำแนะนำการลงทุน"
 }
