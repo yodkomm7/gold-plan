@@ -1,12 +1,15 @@
 {
-  "generated_at": "2026-11-10T09:37:46Z",
+  "generated_at": "2026-11-10T09:45:46Z",
   "ea_build": "v1.25-news",
   "symbol": "XAUUSD.",
-  "bid": 4086.00, "ask": 4086.09,
+  "bid": 4083.20, "ask": 4083.29,
   "balance": 9401.57, "equity": 9401.57,
   "plan_generated_at": "2026-11-10T08:40:00Z",
   "today": { "closed_pl": 0.00, "trades_opened": 0, "consec_losses": 0 },
   "positions": [],
-  "pendings": [],
+  "pendings": [
+    { "ticket": 1257488025, "setup": "GPEA L 2026-11-05-sell-41", "type": "sell_limit", "volume": 0.05, "price": 4160.00, "sl": 4188.00, "tp": 4110.00 },
+    { "ticket": 1257488023, "setup": "GPEA L 2026-11-09-buy-407", "type": "buy_limit", "volume": 0.06, "price": 4070.00, "sl": 4042.00, "tp": 4130.00 }
+  ],
   "last_action": "08:54Z 🎯 ย้าย TP #1257229156 4152.00 → 4130.00 — ข้อ B: TP เดิม 4152 อยู่หลังกำแพง 4132-4134 ที่ราคาเพิ่งเด้งกลับ 2 ครั้งเช้านี้ (H1 02:00Z high 4134.135 / 04:00Z high 4132.720 แล้วร่วงลงมา 4086) ดึง TP เข้ามาไว้ก่อนแนวนั้น 2.7 จุด = 4130 ห่างราคาปัจจุบัน 4098.255 อยู่ 31.7 จุด (เกิน 4) เป็นการดึงเข้าเท่านั้น ไม่ขยาย | ข้อ A ไม่เข้า (เหลือถึง TP 53.7 = 112% ของระยะ entry-TP) ข้อ C ไม่เข้า เข้าแค่ 1 ใน 3: แท่ง H1 07:00Z ปิด 4086.685 หลุด zone_low-3 (4092) แต่ H1 ADX 20.068 < 25 และ Summary H1 = Buy / MA H1 = Strong buy ไม่ใช่ Strong sell + เงินใหญ่ยัง accumilating ไม่กลับข้าง และ r_now -0.22 > -0.3 (กฎเหล็ก: ห้าม cut ที่ noise)"
 }
