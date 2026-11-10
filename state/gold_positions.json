@@ -1,18 +1,14 @@
 {
-  "generated_at": "2026-11-10T12:20:46Z",
+  "generated_at": "2026-11-10T12:30:46Z",
   "ea_build": "v1.25-news",
   "symbol": "XAUUSD.",
-  "bid": 4075.98, "ask": 4076.07,
-  "balance": 9401.57, "equity": 9437.63,
+  "bid": 4075.86, "ask": 4075.95,
+  "balance": 9401.57, "equity": 9436.91,
   "plan_generated_at": "2026-11-10T11:44:00Z",
   "today": { "closed_pl": 0.00, "trades_opened": 1, "consec_losses": 0 },
   "positions": [
-    { "ticket": 1257488023, "setup": "GPEA L 2026-11-09-buy-407", "type": "buy", "volume": 0.06, "open_price": 4069.97, "open_time": "2026-11-10T11:06:32Z", "sl": 4042.00, "tp": 4124.00, "initial_sl": 4042.00, "profit": 36.06, "r_now": 0.21, "sl_at_or_past_be": false }
+    { "ticket": 1257488023, "setup": "GPEA L 2026-11-09-buy-407", "type": "buy", "volume": 0.06, "open_price": 4069.97, "open_time": "2026-11-10T11:06:31Z", "sl": 4069.97, "tp": 4124.00, "initial_sl": 4042.00, "profit": 35.34, "r_now": 0.21, "sl_at_or_past_be": true }
   ],
-  "pendings": [
-    { "ticket": 1257503690, "setup": "GPEA L 2026-11-10-buy-403", "type": "buy_limit", "volume": 0.05, "price": 4030.00, "sl": 4002.00, "tp": 4080.00 },
-    { "ticket": 1257503689, "setup": "GPEA L 2026-11-10-sell-41", "type": "sell_limit", "volume": 0.06, "price": 4100.00, "sl": 4128.00, "tp": 4052.00 },
-    { "ticket": 1257488025, "setup": "GPEA L 2026-11-05-sell-41", "type": "sell_limit", "volume": 0.05, "price": 4160.00, "sl": 4188.00, "tp": 4110.00 }
-  ],
+  "pendings": [],
   "last_action": "11:49Z 🎯 ย้าย TP #1257488023 4130.00 → 4124.00 — ข้อ B: TP เดิม 4130 อยู่เหนือกำแพง 4126-4128 ที่ราคาเพิ่งถูกปฏิเสธ 3 ครั้งเช้านี้ (H1 05:00Z high 4128.010 / 06:00Z high 4127.020 / 07:00Z high 4126.685 แล้วร่วงมา 4068.715) ดึง TP เข้ามาไว้ก่อนแนวนั้น $2 = 4124 ห่างราคาปัจจุบัน 4073.495 อยู่ 50.5 จุด (เกิน 4) เป็นการดึงเข้าเท่านั้น ไม่ขยาย | ข้อ A ไม่เข้า (เหลือถึง TP 56.5 = 94% ของระยะ entry-TP) · ข้อ C ไม่เข้า เข้าแค่ 1 ใน 3: ③ bias รอบนี้พลิกเป็น short สวนไม้ แต่ ① แท่ง H1 ที่ปิดแล้ว (10:00Z close 4075.095) ยังไม่หลุด zone_low-3 = 4055 และ ② ADX H1 18.867 < 25 (Summary H1 = Sell ไม่ใช่ Strong sell) + r_now 0.13 > -0.3 (กฎเหล็ก: ห้าม cut ที่ noise) · ข้อ D/E ไม่เข้า (r_now 0.13 < 1.0) · ข้อ F ไม่เข้า (CPI 13:30Z ห่าง 106 นาที > 60) — EA จะเลื่อน SL มาจุดเข้าเองตอน blackout 13:00Z"
 }
