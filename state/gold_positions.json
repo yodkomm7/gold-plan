@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-11T04:27:46Z",
+  "generated_at": "2026-11-11T04:58:48Z",
   "ea_build": "v1.25-news",
   "symbol": "XAUUSD.",
-  "bid": 4043.86, "ask": 4043.95,
+  "bid": 4046.16, "ask": 4046.25,
   "balance": 9348.27, "equity": 9348.27,
   "plan_generated_at": "2026-11-10T16:43:00Z",
   "today": { "closed_pl": 0.00, "trades_opened": 0, "consec_losses": 1 },
