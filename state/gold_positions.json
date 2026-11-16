@@ -1,14 +1,13 @@
 {
-  "generated_at": "2026-11-16T11:14:55Z",
+  "generated_at": "2026-11-16T11:44:59Z",
   "ea_build": "v1.25-news",
   "symbol": "XAUUSD.",
-  "bid": 3874.02, "ask": 3874.11,
+  "bid": 3872.59, "ask": 3872.68,
   "balance": 9481.62, "equity": 9481.62,
   "plan_generated_at": "2026-11-16T10:42:00Z",
   "today": { "closed_pl": 133.35, "trades_opened": 1, "consec_losses": 0 },
   "positions": [],
   "pendings": [
-    { "ticket": 1258534857, "setup": "[tp 3874.00]", "type": "other", "volume": 0.05, "price": 3874.00, "sl": 0.00, "tp": 0.00 },
     { "ticket": 1258527615, "setup": "GPEA L 2026-11-16-sell-39", "type": "sell_limit", "volume": 0.06, "price": 3906.00, "sl": 3934.00, "tp": 3858.00 },
     { "ticket": 1258527614, "setup": "GPEA L 2026-11-16-sell-38", "type": "sell_limit", "volume": 0.10, "price": 3880.00, "sl": 3906.00, "tp": 3832.00 }
   ],
