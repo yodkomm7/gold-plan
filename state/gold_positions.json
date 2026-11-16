@@ -1,17 +1,14 @@
 {
-  "generated_at": "2026-11-16T09:34:59Z",
+  "generated_at": "2026-11-16T09:36:59Z",
   "ea_build": "v1.25-news",
   "symbol": "XAUUSD.",
-  "bid": 3859.07, "ask": 3859.16,
-  "balance": 9348.27, "equity": 9406.97,
+  "bid": 3857.26, "ask": 3857.35,
+  "balance": 9348.27, "equity": 9397.92,
   "plan_generated_at": "2026-11-16T08:42:08Z",
   "today": { "closed_pl": 0.00, "trades_opened": 1, "consec_losses": 1 },
   "positions": [
-    { "ticket": 1258470852, "setup": "GPEA A 2026-11-16-buy-385", "type": "buy", "volume": 0.05, "open_price": 3847.33, "open_time": "2026-11-16T05:49:25Z", "sl": 3820.00, "tp": 3874.00, "initial_sl": 3820.00, "profit": 58.70, "r_now": 0.43, "sl_at_or_past_be": false }
+    { "ticket": 1258470852, "setup": "GPEA A 2026-11-16-buy-385", "type": "buy", "volume": 0.05, "open_price": 3847.33, "open_time": "2026-11-16T05:49:26Z", "sl": 3820.00, "tp": 3874.00, "initial_sl": 3820.00, "profit": 49.65, "r_now": 0.36, "sl_at_or_past_be": false }
   ],
-  "pendings": [
-    { "ticket": 1258494675, "setup": "GPEA A 2026-11-16-sell-39", "type": "sell_limit", "volume": 0.06, "price": 3906.00, "sl": 3934.00, "tp": 3858.00 },
-    { "ticket": 1258494674, "setup": "GPEA A 2026-11-16-sell-38", "type": "sell_limit", "volume": 0.07, "price": 3880.00, "sl": 3906.00, "tp": 3832.00 }
-  ],
+  "pendings": [],
   "last_action": "06:59Z 🎯 ย้าย TP #1258470852 3896.00 → 3874.00 — ข้อ B เป้าเดิมอยู่หลังกำแพง: ไม้ buy เปิด 05:49Z ที่ 3847.33 TP เดิม 3896 แต่ระหว่างราคาปัจจุบัน 3840.22 กับ 3896 มีแนวต้าน H1 EMA20 3876.120 / SMA20 3877.966 ที่ราคาถูกตีกลับ 3 ครั้งติดใน 3 ชม. (high 3875.675 / 3877.450 / 3878.635) → ดึง TP เข้ามาไว้ก่อนแนว $2 ที่ 3874 (ดึงเข้าเท่านั้น 3874 < 3896 · ห่างราคาปัจจุบัน 33.8 ≥ $4) · ไม่ใช้ข้อ C ตัดขาดทุนเพราะกฎเหล็ก: r_now คำนวณใหม่จากราคา OANDA = (3840.22-3847.33)/27.33 = -0.26 ยัง > -0.3 ถือเป็น noise ให้ hold SL เดิม 3820 ไว้ (ถึงแม้ ① แท่ง H1 05:00Z ปิด 3837.215 < zone_low-3 = 3840 และ ③ bias รอบนี้ short สวนไม้ จะเข้า 2 ใน 3 แล้ว แต่ ② ไม่เข้า: Summary H1 = Sell ไม่ใช่ Strong sell) · ไม่เข้าข้อ A (ห่าง TP 55 จุด) D/E/F (r_now ติดลบ · ข่าว high ตัวถัดไป 17:00Z ห่าง 10 ชม.)"
 }
