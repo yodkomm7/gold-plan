@@ -1,68 +1,101 @@
 {
-  "schema_version": "1.5",
-  "generated_at": "2026-11-17T09:42:00Z",
-  "valid_until": "2026-11-17T13:42:00Z",
-  "symbol": "XAUUSD",
-  "feed": "OANDA",
-  "reference_price": 3865.64,
-  "market_state": "trend_down",
-  "bias": "short",
-  "adx": 25.961,
-  "rsi": 36.892,
-  "smart_money": {
-    "state": "accumulating",
-    "cot_managed_money_net": 103614,
-    "cot_change_wow": -1948,
-    "etf_flow_note": "ต.ค. 2026 ไหลเข้า US$2.7bn เป็นเดือนที่ 4 ติดต่อกัน ยุโรปนำ เอเชียเข้ามากด้วย (ข้อมูล พ.ย. ออกต้นเดือน ธ.ค.)",
-    "central_bank_note": "PBOC ต.ค. 2026 ซื้อเพิ่ม 830,000 ออนซ์ (~25.8 ตัน) ต่อเนื่องเดือนที่ 24 ทุนสำรองรวม US$3.405tn (ประกาศ 7 พ.ย. · ชุดถัดไป ~7 ธ.ค.)",
-    "as_of": "COT 2026-11-03 / ETF ต.ค. 2026 / PBOC ต.ค. 2026 (คัดลอกจากรอบ 06:41Z — ข้อมูลออกสัปดาห์ละครั้ง)"
-  },
-  "levels": {
-    "resistance": [3886.9, 3906.0, 3947.0],
-    "support": [3851.0, 3843.69, 3832.5]
-  },
-  "setups": [
-    {
-      "id": "2026-11-17-sell-3885",
-      "direction": "sell",
-      "zone_low": 3880.0,
-      "zone_high": 3890.0,
-      "confirm": "h1_close_below",
-      "confirm_level": 3880.0,
-      "entry": 3885.0,
-      "stop_loss": 3910.0,
-      "tp1": 3865.0,
-      "tp2": 3845.0,
-      "risk_pct": 1.5,
-      "max_spread": 0.8,
-      "valid_until": "2026-11-17T17:00:00Z",
-      "note": "กรณี A (ADX รายวัน 25.96 > 25 · trend_down ชัด ราคา 3865.64 ใต้ EMA10 3945.02 EMA20 3998.23 EMA50 4102.49 และใต้ MA รายวันทุกเส้น · MA summary = Strong sell) → ไม้ตามเทรนด์ · สวนเงินใหญ่ (accumulating) แต่กรณี A ให้เทรนด์ตัดสินทิศ · คงระดับ/risk/id เดิมทุกค่า (pending ticket 1258806762 วางรออยู่ ห้ามทำให้กระพริบ) · กำแพง H1 3879-3887 ยังยืน: lower highs 3886.90 (05:00Z) → 3881.88 (06:00Z) → 3879.29 (07:00Z) → 3874.31 (08:00Z) → 3870.97 (09:00Z) · ขยายแต่ valid_until 16:00Z → 17:00Z · R:R 1.60 SL $25"
-    },
-    {
-      "id": "2026-11-16-sell-3905",
-      "direction": "sell",
-      "zone_low": 3901.0,
-      "zone_high": 3911.0,
-      "confirm": "h1_close_below",
-      "confirm_level": 3901.0,
-      "entry": 3906.0,
-      "stop_loss": 3934.0,
-      "tp1": 3884.0,
-      "tp2": 3858.0,
-      "risk_pct": 2.0,
-      "max_spread": 0.8,
-      "valid_until": "2026-11-17T17:00:00Z",
-      "note": "กรณี A (ADX 25.96 · trend_down) ไม้ตามเทรนด์ · สวนเงินใหญ่ (accumulating) แต่ ADX > 25 เชื่อเทรนด์เรื่องทิศ · คงระดับ/risk/id เดิมทุกค่า (pending ticket 1258730387 วางรออยู่) · ขยายแต่ valid_until เป็น 17:00Z · R:R 1.71 SL $28"
-    }
+ "schema_version": "1.5",
+ "generated_at": "2026-11-17T10:42:00Z",
+ "valid_until": "2026-11-17T14:42:00Z",
+ "symbol": "XAUUSD",
+ "feed": "OANDA",
+ "reference_price": 3859.14,
+ "market_state": "trend_down",
+ "bias": "short",
+ "adx": 25.961,
+ "rsi": 36.389,
+ "smart_money": {
+  "state": "accumulating",
+  "cot_managed_money_net": 103614,
+  "cot_change_wow": -1948,
+  "etf_flow_note": "ต.ค. 2026 ไหลเข้า US$2.7bn เป็นเดือนที่ 4 ติดต่อกัน ยุโรปนำ เอเชียเข้ามากด้วย (ข้อมูล พ.ย. ออกต้นเดือน ธ.ค.)",
+  "central_bank_note": "PBOC ต.ค. 2026 ซื้อเพิ่ม 830,000 ออนซ์ (~25.8 ตัน) ต่อเนื่องเดือนที่ 24 ทุนสำรองรวม US$3.405tn (ประกาศ 7 พ.ย. · ชุดถัดไป ~7 ธ.ค.)",
+  "as_of": "COT 2026-11-03 / ETF ต.ค. 2026 / PBOC ต.ค. 2026 (คัดลอกจากรอบ 06:41Z — ข้อมูลออกสัปดาห์ละครั้ง)"
+ },
+ "levels": {
+  "resistance": [
+   3871.0,
+   3886.9,
+   3906.0
   ],
-  "position_actions": [],
-  "news_setups": [],
-  "news_blackout": [
-    { "from": "2026-11-17T12:15:00Z", "to": "2026-11-17T12:45:00Z", "label": "Fed Musalem Speech (12:30Z)", "impact": "medium" },
-    { "from": "2026-11-17T13:15:00Z", "to": "2026-11-17T13:45:00Z", "label": "ADP Weekly 13:15Z + Retail Sales MoM OCT 13:30Z (cons 0.2% / TEforecast 0.6% vs prev 0.8%) + Ex-Autos + Control Group + Import/Export Prices + NY Fed Services", "impact": "medium" },
-    { "from": "2026-11-17T14:00:00Z", "to": "2026-11-17T14:45:00Z", "label": "Industrial Production 14:15Z + Manufacturing Production + Fed Waller 14:20Z + Fed Hammack 14:30Z", "impact": "medium" },
-    { "from": "2026-11-17T14:55:00Z", "to": "2026-11-17T15:10:00Z", "label": "Business Inventories + NAHB Housing Market Index 15:00Z", "impact": "low" },
-    { "from": "2026-11-17T19:10:00Z", "to": "2026-11-17T19:40:00Z", "label": "Fed Williams Speech (19:25Z)", "impact": "medium" }
-  ],
-  "notes": "รอบ 09:42Z 17 พ.ย. · OANDA 3865.64 (prev close 3856.52 · range วันนี้ 3843.69-3886.90) ยังแกว่งกรอบ 3843-3887 · เทคนิครายวันไม่เปลี่ยนจากรอบ 08:43Z: ADX 25.961 RSI 36.892 MA summary Strong sell ราคาใต้ MA รายวันทุกเส้น (EMA10 3945.02 EMA20 3998.23 EMA50 4102.49) Summary = Sell → กรณี A ขายตามเทรนด์เท่านั้น · ห้ามไม้ซื้อสวนเทรนด์: แนวรับใหญ่ที่ห่าง >= 1.5xATR รายวันยังอยู่ต่ำกว่า ~3730 ไม่มีโซนสมเหตุสมผล · HMA9 3813.77 อยู่ใต้ราคา ใช้เป็นจุด pullback ขายไม่ได้ · เงินใหญ่ยัง accumulating (COT 103,614 -1,948 w/w ช่วงปกติ · คัดลอกบล็อกเดิม ไม่ใช่รอบ 06:xxZ) แต่ ADX > 25 จึงเชื่อเทรนด์เรื่องทิศ · ไม่เปลี่ยนระดับจากรอบที่แล้วเลย: คง sell 3885 และ sell 3906 ทุกค่า (pending 1258806762 + 1258730387 วางรออยู่ทั้งคู่ ห้ามทำให้กระพริบ) ขยายแต่อายุ setup เป็น 17:00Z · ไม่เพิ่มไม้ขายใกล้ราคา (3874-3876) เพราะห่างจาก 3885 ไม่ถึง $15 = ซ้อนความเสี่ยงฝั่งเดียวกัน 3 ชั้น (บทเรียน 24 ก.ย./7 ต.ค.) · ความเสี่ยงรวมถ้าเติมทั้งคู่ 3.5% · ไม้ค้าง: ไม่มี (positions ว่าง · ไฟล์สถานะ 09:29Z สด 13 นาที) → position_actions = [] · วันนี้ปิด PL 0.00 เปิดใหม่ 0 ไม้ · balance 9481.62 equity 9481.62 (-5.2% จากทุนตั้งต้น 10k · ยังไม่เข้าเกณฑ์ขาดทุนแรง) · ข่าว 12 ชม. ข้างหน้าเป็น medium/low ทั้งหมด (Musalem 12:30Z, ADP Weekly 13:15Z, Retail Sales 13:30Z cons 0.2% vs TEforecast 0.6% prev 0.8%, Industrial Production 14:15Z, Waller 14:20Z, Hammack 14:30Z, NAHB 15:00Z, Williams 19:25Z) ไม่มี high ภายใน 4 ชม. (ตัวถัดไป NFP 4 ธ.ค.) → news_setups = [] · หมายเหตุ: Chrome extension ต่อไม่ได้รอบนี้ ใช้เบราว์เซอร์ในแอปแทน ได้ข้อมูลครบ · จำลองบน demo ไม่ใช่คำแนะนำการลงทุน"
+  "support": [
+   3853.19,
+   3843.69,
+   3832.5
+  ]
+ },
+ "setups": [
+  {
+   "id": "2026-11-17-sell-3885",
+   "direction": "sell",
+   "zone_low": 3880.0,
+   "zone_high": 3890.0,
+   "confirm": "h1_close_below",
+   "confirm_level": 3880.0,
+   "entry": 3885.0,
+   "stop_loss": 3910.0,
+   "tp1": 3865.0,
+   "tp2": 3845.0,
+   "risk_pct": 1.5,
+   "max_spread": 0.8,
+   "valid_until": "2026-11-17T19:00:00Z",
+   "note": "กรณี A (ADX รายวัน 25.961 > 25 · trend_down ชัด ราคา 3859.14 ใต้ EMA10 3944.05 EMA20 3997.72 EMA50 4102.28 และใต้ MA รายวันทุกเส้น · MA summary = Strong sell) → ไม้ตามเทรนด์ · สวนเงินใหญ่ (accumulating) แต่กรณี A ให้เทรนด์ตัดสินทิศ · คงระดับ/risk/id เดิมทุกค่า (pending ticket 1258806762 วางรออยู่ ห้ามทำให้กระพริบ) · โครงสร้าง H1 ยัง lower highs ต่อเนื่อง 3886.90 (05:00Z) → 3881.88 → 3879.29 → 3874.31 → 3870.97 → 3865.70 (10:00Z) กำแพง 3880-3887 ยังยืน · ขยายแต่ valid_until 17:00Z → 19:00Z · R:R 1.60 SL $25"
+  },
+  {
+   "id": "2026-11-16-sell-3905",
+   "direction": "sell",
+   "zone_low": 3901.0,
+   "zone_high": 3911.0,
+   "confirm": "h1_close_below",
+   "confirm_level": 3901.0,
+   "entry": 3906.0,
+   "stop_loss": 3934.0,
+   "tp1": 3884.0,
+   "tp2": 3858.0,
+   "risk_pct": 2.0,
+   "max_spread": 0.8,
+   "valid_until": "2026-11-17T19:00:00Z",
+   "note": "กรณี A (ADX 25.961 · trend_down) ไม้ตามเทรนด์ · สวนเงินใหญ่ (accumulating) แต่ ADX > 25 เชื่อเทรนด์เรื่องทิศ · คงระดับ/risk/id เดิมทุกค่า (pending ticket 1258730387 วางรออยู่) · ขยายแต่ valid_until เป็น 19:00Z · R:R 1.71 SL $28"
+  }
+ ],
+ "position_actions": [],
+ "news_setups": [],
+ "news_blackout": [
+  {
+   "from": "2026-11-17T12:15:00Z",
+   "to": "2026-11-17T12:45:00Z",
+   "label": "Fed Musalem Speech (12:30Z)",
+   "impact": "medium"
+  },
+  {
+   "from": "2026-11-17T13:15:00Z",
+   "to": "2026-11-17T13:45:00Z",
+   "label": "ADP Weekly 13:15Z + Retail Sales MoM OCT 13:30Z (cons 0.2% / TEforecast 0.6% vs prev 0.8%) + Ex-Autos + Control Group + Import/Export Prices + NY Fed Services",
+   "impact": "medium"
+  },
+  {
+   "from": "2026-11-17T14:00:00Z",
+   "to": "2026-11-17T14:45:00Z",
+   "label": "Industrial Production 14:15Z + Manufacturing Production + Fed Waller 14:20Z + Fed Hammack 14:30Z",
+   "impact": "medium"
+  },
+  {
+   "from": "2026-11-17T14:55:00Z",
+   "to": "2026-11-17T15:10:00Z",
+   "label": "Business Inventories + NAHB Housing Market Index 15:00Z",
+   "impact": "low"
+  },
+  {
+   "from": "2026-11-17T19:10:00Z",
+   "to": "2026-11-17T19:40:00Z",
+   "label": "Fed Williams Speech (19:25Z)",
+   "impact": "medium"
+  }
+ ],
+ "notes": "OANDA 3859.14 (10:42Z) · prev close 3856.52 · Day's range 3843.685-3886.895 · รายวัน: ADX 25.961, RSI 36.389, MA summary Strong sell, ราคาใต้ MA ทุกเส้น (EMA10 3944.05 / EMA20 3997.72 / EMA50 4102.28) → กรณี A ขาลง เทรดตามเทรนบ์ฝั่งขายเท่านั้น · H1 ย่อลงต่อเนื่อง lower highs 3886.90→3865.70 และแท่ง 10:00Z ทำ low 3853.19 (ต่ำสุดตั้งแต่ 01:00Z) · ไม่มีไม้ค้าง (positions ว่าง) มีแต่ pending 2 ตัว sell limit 3885 / 3906 → position_actions ว่าง · คงระดับและ id เดิมทั้งสอง setup ไม่ขยับราคา ขยายแต่อายุเป็น 19:00Z เพื่อให้ pending รอได้ · ไม่เพิ่ม setup ขายตัวที่สาม: รวมความเสี่ยงฝั่งขายอยู่ที่ 3.5% แล้ว การเพิ่มระดับใกล้ 3871 ห่างจาก 3885 เพียง $14 คือการซ้อนความเสี่ยงในเหตุการณ์เดียว (บทเรียน 24 ก.ย./7 ต.ค.) · ไม่มีข่าว high ใน 4 ชม. (วันนี้มีแค่ Retail Sales 13:30Z = medium) → news_setups ว่าง · balance 9481.62 equity 9481.62 closed_pl วันนี้ 0.00 ยังไม่มีไม้เปิดวันนี้ · ความเสี่ยง: ราคาที่หลุด 3853 ลงไปจะทำให้ pending 3885/3906 ห่างเกินและอาจไม่ได้เข้าเลยทั้งวัน — ยอมพลาดดีกว่าไล่ขายที่ low · จำลองบน demo ไม่ใช่คำแนะนำการลงทุน"
 }
