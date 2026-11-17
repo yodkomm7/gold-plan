@@ -1,25 +1,33 @@
 {
   "schema_version": "1.5",
-  "generated_at": "2026-11-17T05:42:00Z",
-  "valid_until": "2026-11-17T09:42:00Z",
+  "generated_at": "2026-11-17T06:41:51Z",
+  "valid_until": "2026-11-17T10:41:51Z",
   "symbol": "XAUUSD",
   "feed": "OANDA",
-  "reference_price": 3879.74,
+  "reference_price": 3877.23,
   "market_state": "trend_down",
   "bias": "short",
   "adx": 25.961,
-  "rsi": 38.574,
+  "rsi": 37.87,
   "smart_money": {
     "state": "accumulating",
     "cot_managed_money_net": 103614,
     "cot_change_wow": -1948,
     "etf_flow_note": "ต.ค. 2026 ไหลเข้า US$2.7bn เป็นเดือนที่ 4 ติดต่อกัน ยุโรปนำ เอเชียเข้ามากด้วย (ข้อมูล พ.ย. ออกต้นเดือน ธ.ค.)",
     "central_bank_note": "PBOC ต.ค. 2026 ซื้อเพิ่ม 830,000 ออนซ์ (~25.8 ตัน) ต่อเนื่องเดือนที่ 24 ทุนสำรองรวม US$3.405tn (ประกาศ 7 พ.ย. · ชุดถัดไป ~7 ธ.ค.)",
-    "as_of": "COT 2026-11-03 / ETF ต.ค. 2026 / PBOC ต.ค. 2026 (คัดลอกบล็อกเดิม — รอบ 05:42Z ไม่ใช่รอบรายวัน 06:xx)"
+    "as_of": "COT 2026-11-03 (เช็กรอบรายวัน 06:xxZ 17 พ.ย. — CFTC ยังไม่ออกชุดใหม่ ตัวเลขเท่าเดิม) / ETF ต.ค. 2026 / PBOC ต.ค. 2026"
   },
   "levels": {
-    "resistance": [3886.9, 3889.0, 3906.0],
-    "support": [3872.29, 3863.41, 3852.11]
+    "resistance": [
+      3886.9,
+      3906.0,
+      3947.0
+    ],
+    "support": [
+      3871.6,
+      3861.7,
+      3843.69
+    ]
   },
   "setups": [
     {
@@ -34,9 +42,9 @@
       "tp1": 3884.0,
       "tp2": 3858.0,
       "risk_pct": 2.0,
-      "max_spread": 0.80,
+      "max_spread": 0.8,
       "valid_until": "2026-11-17T14:00:00Z",
-      "note": "กรณี A (ADX รายวัน 25.96 > 25 · trend_down ชัด ราคา 3879.74 ใต้ EMA20 3999.99 และ EMA50 4103.21 และใต้ MA รายวันทุกเส้น) → ไม้ตามเทรนด์ สวนเงินใหญ่ (accumulating) แต่กรณี A ให้เทรนด์ตัดสินทิศ · sell limit รอเด้งกลับขึ้นไปโซน 3901-3911 เหนือ high วันนี้ 3886.9 และ high ของแท่ง 11-16 14:00Z ที่ 3888.96 · คงระดับเดิมจากรอบก่อน ไม่ขยับตาม MA (pending ticket 1258730387 วางรออยู่แล้ว) · R:R 1.71 SL $28"
+      "note": "กรณี A (ADX รายวัน 25.96 > 25 · trend_down ชัด ราคา 3877.23 ใต้ EMA20 3999.24 EMA50 4102.90 และใต้ MA รายวันทุกเส้น · MA summary = Strong sell) → ไม้ตามเทรนด์ · สวนเงินใหญ่ (accumulating) แต่กรณี A ให้เทรนด์ตัดสินทิศ · sell limit รอเด้งขึ้นโซน 3901-3911 เหนือ high วันนี้ 3886.9 · คงระดับ/risk เดิมไม่ขยับ (pending ticket 1258730387 วางรออยู่ ห้ามทำให้กระพริบ) · R:R 1.71 SL $28"
     },
     {
       "id": "2026-11-16-sell-3935",
@@ -50,17 +58,32 @@
       "tp1": 3912.0,
       "tp2": 3886.0,
       "risk_pct": 1.5,
-      "max_spread": 0.80,
+      "max_spread": 0.8,
       "valid_until": "2026-11-17T14:00:00Z",
-      "note": "กรณี A (ADX 25.96 · trend_down) ไม้ตามเทรนด์ · สวนเงินใหญ่ (accumulating) แต่ ADX > 25 เชื่อเทรนด์ · โซนนี้คือ pullback ลึกเข้าหา EMA10 รายวัน 3948.39 = จุดขายตามเทรนด์ที่ดีที่สุดถ้าเด้งแรง · คงระดับเดิม · ห่างจากไม้ 3906 = $30 > $15 · R:R 1.79 SL $28"
+      "note": "กรณี A (ADX 25.96 · trend_down) ไม้ตามเทรนด์ · สวนเงินใหญ่ (accumulating) แต่ ADX > 25 เชื่อเทรนด์ · โซน pullback ลึกเข้าหา EMA10 รายวัน 3946.96 = จุดขายตามเทรนด์ที่ดีที่สุดถ้าเด้งแรง · คงระดับเดิม · ห่างจากไม้ 3906 = $30 > $15 · R:R 1.79 SL $28"
     }
   ],
   "position_actions": [],
   "news_setups": [],
   "news_blackout": [
-    { "from": "2026-11-17T12:15:00Z", "to": "2026-11-17T12:45:00Z", "label": "Fed Musalem Speech", "impact": "medium" },
-    { "from": "2026-11-17T13:15:00Z", "to": "2026-11-17T13:45:00Z", "label": "ADP Weekly + Retail Sales MoM OCT (cons 0.2% vs prev 0.8%) + Control Group + Import/Export Prices", "impact": "medium" },
-    { "from": "2026-11-17T14:00:00Z", "to": "2026-11-17T14:45:00Z", "label": "Industrial Production + Capacity Utilization + Fed Waller + Fed Hammack", "impact": "medium" }
+    {
+      "from": "2026-11-17T12:15:00Z",
+      "to": "2026-11-17T12:45:00Z",
+      "label": "Fed Musalem Speech",
+      "impact": "medium"
+    },
+    {
+      "from": "2026-11-17T13:15:00Z",
+      "to": "2026-11-17T13:45:00Z",
+      "label": "ADP Weekly + Retail Sales MoM OCT (cons 0.2% / TEforecast 0.6% vs prev 0.8%) + Control Group + Import/Export Prices",
+      "impact": "medium"
+    },
+    {
+      "from": "2026-11-17T14:00:00Z",
+      "to": "2026-11-17T14:45:00Z",
+      "label": "Industrial Production + Capacity Utilization + Fed Waller + Fed Hammack",
+      "impact": "medium"
+    }
   ],
-  "notes": "OANDA 3879.74 (05:41Z) · ไม้ sell 0.10 ที่ 3880.92 ถูกปิดแล้วที่ SL กันทุน (แท่ง 05:00Z ขึ้นไปแตะ high 3886.90) ผล ~$0 · equity กลับมาเท่า balance 9481.62 = ขาดทุนสะสมจากทุน 10k -5.2% · closed_pl วันนี้ $0 · ไม่มีไม้ค้างเลย → position_actions ว่าง · เหลือ pending sell limit 3906 (ticket 1258730387) รออยู่ · โครงสร้างรายวันยังขาลงเต็มตัว: ราคาใต้ MA รายวันทุกเส้น (EMA10 3948 · EMA20 4000 · EMA50 4103 · EMA200 4239) · ADX 25.96 RSI 38.57 Summary Sell / MA Strong sell → กรณี A ใช้เทรนด์ตัดสินทิศ ไม่เปิดไม้ซื้อสวนเทรนด์ (แนวรับใหญ่ที่ห่าง >= 1.5xATR รายวันอยู่ราว 3770 ยังไม่ถึง) · การเด้งจาก low 3843.69 (01:00Z) ขึ้นมา +0.6% คือ pullback ในขาลง — เป็นเหตุผลที่ยังยืนระดับขาย 3906/3936 เดิมไว้ ไม่ขยับ · ขยายอายุ setup ถึง 14:00Z ให้ pending มีเวลารอ · ข่าววันนี้เป็น medium ทั้งหมด (Musalem 12:30Z · Retail Sales 13:30Z · Industrial Production + Waller + Hammack 14:15-14:30Z) ไม่มี high ใน 4 ชม. → news_setups ว่าง · ข่าว high ตัวถัดไปคือ NFP 4 ธ.ค. และ FOMC 9 ธ.ค. · จำลองบน demo ไม่ใช่คำแนะนำการลงทุน"
+  "notes": "รอบ 06:4xZ 17 พ.ย. (รอบรายวัน) · OANDA 3877.23 (+0.48% วันนี้ prev close 3856.52 · range วันนี้ 3843.69-3886.90) เด้งขึ้นในกรอบแคบหลังร่วงแรงเมื่อวาน · เทรนด์รายวันยังลงชัด: ราคาต่ำกว่า MA รายวันทุกเส้น EMA10 3946.96 EMA20 3999.24 EMA50 4102.90 · ADX 25.96 RSI 37.87 → กรณี A ขายตามเทรนด์เท่านั้น · ไม่มีไม้ซื้อสวนเทรนด์: แนวรับใหญ่ที่ห่าง >= 1.5xATR รายวันอยู่ต่ำกว่า 3730 ไม่มีโซนที่สมเหตุสมผล · เงินใหญ่ยัง accumulating (COT 103,614 -1,948 w/w เป็นช่วงปกติ 50k-200k · ETF เข้า 4 เดือนติด · PBOC ซื้อเดือนที่ 24) แต่ ADX > 25 จึงเชื่อเทรนด์เรื่องทิศ · คงสอง sell setup เดิมที่ 3906 และ 3936 ไม่ขยับระดับ ไม่ขยับ risk เพื่อไม่ให้ pending 1258730387 ถูกลบแล้ววางใหม่ · ไม้ค้าง: ไม่มี (positions ว่าง) จึงไม่มี position_actions · วันนี้ปิด PL 0.00 · balance 9481.62 (-5.2% จากทุนตั้งต้น 10k) · ข่าววันนี้เป็น medium ทั้งหมด (Retail Sales 13:30Z, Fed Musalem/Waller/Hammack) ไม่มี high ใน 4 ชม. → ไม่มี news_setups · จำลองบน demo ไม่ใช่คำแนะนำการลงทุน"
 }
