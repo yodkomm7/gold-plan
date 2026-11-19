@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-19T02:31:07Z",
+  "generated_at": "2026-11-19T03:01:53Z",
   "ea_build": "v1.25-news",
   "symbol": "XAUUSD.",
-  "bid": 3741.89, "ask": 3741.98,
-  "balance": 9863.88, "equity": 9851.07,
-  "plan_generated_at": "2026-11-19T01:43:00Z",
+  "bid": 3706.67, "ask": 3706.76,
+  "balance": 9863.88, "equity": 10097.75,
+  "plan_generated_at": "2026-11-19T02:42:00Z",
   "today": { "closed_pl": -7.24, "trades_opened": 0, "consec_losses": 1 },
   "positions": [
-    { "ticket": 1259269605, "setup": "", "type": "sell", "volume": 0.07, "open_price": 3740.17, "open_time": "2026-11-18T23:23:31Z", "sl": 3766.00, "tp": 3693.00, "initial_sl": 3766.00, "profit": -12.81, "r_now": -0.07, "sl_at_or_past_be": false }
+    { "ticket": 1259269605, "setup": "", "type": "sell", "volume": 0.07, "open_price": 3740.17, "open_time": "2026-11-18T23:23:31Z", "sl": 3766.00, "tp": 3693.00, "initial_sl": 3766.00, "profit": 234.43, "r_now": 1.29, "sl_at_or_past_be": false }
   ],
   "pendings": [],
   "last_action": "12:51Z ✂️ ปิด #1259111515 ที่ 3746.45 (กำไร/ขาดทุน 389.60) — ข้อ A ใกล้เป้าแล้ว-เก็บเลย: คำนวณใหม่จากราคา OANDA 3753.59 -> r_now = (3785.41-3753.59)/25.59 = 1.24 · เหลือถึง TP 3743 อีก $10.59 = 25.0% ของระยะ (TP-entry = 42.41) เข้าเกณฑ์ <= 25% · และเข้าเงื่อนไขเสริม RSI(14) H1 = 21.61 < 30 (ขายมากเกินไปแล้ว เสี่ยงเด้ง) · เก็บกำไร ~1.24R (~$320) แทนการเสี่ยงอีก $10 สุดท้าย"
