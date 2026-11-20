@@ -1,15 +1,16 @@
 {
-  "generated_at": "2026-11-20T14:05:58Z",
+  "generated_at": "2026-11-20T14:13:37Z",
   "ea_build": "v1.25-news",
   "symbol": "XAUUSD.",
-  "bid": 3565.48, "ask": 3565.57,
-  "balance": 9777.60, "equity": 9777.60,
+  "bid": 3580.01, "ask": 3580.10,
+  "balance": 9777.60, "equity": 9776.79,
   "plan_generated_at": "2026-11-20T13:42:00Z",
-  "today": { "closed_pl": -122.68, "trades_opened": 1, "consec_losses": 2 },
-  "positions": [],
+  "today": { "closed_pl": -122.68, "trades_opened": 2, "consec_losses": 2 },
+  "positions": [
+    { "ticket": 1259775853, "setup": "GPEA N 2026-11-20-sell-35", "type": "sell", "volume": 0.09, "open_price": 3580.01, "open_time": "2026-11-20T14:13:37Z", "sl": 3612.00, "tp": 3522.00, "initial_sl": 3612.00, "profit": -0.81, "r_now": -0.00, "sl_at_or_past_be": false }
+  ],
   "pendings": [
-    { "ticket": 1259775855, "setup": "GPEA N 2026-11-20-sell-36", "type": "sell_limit", "volume": 0.06, "price": 3625.00, "sl": 3657.00, "tp": 3567.00 },
-    { "ticket": 1259775853, "setup": "GPEA N 2026-11-20-sell-35", "type": "sell_limit", "volume": 0.09, "price": 3580.00, "sl": 3612.00, "tp": 3522.00 }
+    { "ticket": 1259775855, "setup": "GPEA N 2026-11-20-sell-36", "type": "sell_limit", "volume": 0.06, "price": 3625.00, "sl": 3657.00, "tp": 3567.00 }
   ],
   "last_action": "03:57Z 🛡️ เลื่อน SL #1259269605 3766.00 → 3740.17 — ข้อ E (รายการที่ 2 ของ 2 ตามลำดับที่กำหนด) · ย้าย SL จาก 3766 มากันทุนที่จุดเข้า 3740.17 หลังปิดบางส่วน · ห่างราคาปัจจุบัน 3709.60 = $30.57 >= $4 · เป็นการแคบลงเท่านั้น (sell: 3766 -> 3740 ใกล้เข้าหาราคา) ไม่ขยาย SL · ไม่ซ้ำคำสั่งเดิม: last_action ล่าสุดคือ 12:51Z ปิด #1259111515 ซึ่งเป็น ticket อื่น"
 }
