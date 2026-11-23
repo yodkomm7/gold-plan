@@ -1,15 +1,16 @@
 {
-  "generated_at": "2026-11-23T07:34:04Z",
+  "generated_at": "2026-11-23T07:55:05Z",
   "ea_build": "v1.25-news",
   "symbol": "XAUUSD.",
-  "bid": 3626.53, "ask": 3626.62,
-  "balance": 10228.02, "equity": 10259.88,
-  "plan_generated_at": "2026-11-23T06:42:00Z",
+  "bid": 3623.70, "ask": 3623.79,
+  "balance": 10228.02, "equity": 10285.35,
+  "plan_generated_at": "2026-11-23T07:41:58Z",
   "today": { "closed_pl": 0.00, "trades_opened": 1, "consec_losses": 0 },
   "positions": [
-    { "ticket": 1260008620, "setup": "GPEA A 2026-11-23-sell-36", "type": "sell", "volume": 0.09, "open_price": 3630.16, "open_time": "2026-11-23T07:03:23Z", "sl": 3663.00, "tp": 3570.00, "initial_sl": 3663.00, "profit": 31.86, "r_now": 0.11, "sl_at_or_past_be": false }
+    { "ticket": 1260008620, "setup": "GPEA A 2026-11-23-sell-36", "type": "sell", "volume": 0.09, "open_price": 3630.16, "open_time": "2026-11-23T07:03:23Z", "sl": 3663.00, "tp": 3570.00, "initial_sl": 3663.00, "profit": 57.33, "r_now": 0.19, "sl_at_or_past_be": false }
   ],
   "pendings": [
+    { "ticket": 1260052231, "setup": "GPEA L 2026-11-23-sell-38", "type": "sell_limit", "volume": 0.03, "price": 3800.00, "sl": 3832.00, "tp": 3742.00 },
     { "ticket": 1260008621, "setup": "GPEA A 2026-11-23-sell-37", "type": "sell_limit", "volume": 0.03, "price": 3700.00, "sl": 3732.00, "tp": 3642.00 }
   ],
   "last_action": "17:48Z ✂️ ปิด #1259775853 ที่ 3523.02 (กำไร/ขาดทุน 341.94) — ข้อ A (ใกล้เป้าแล้ว เก็บเลย) — ไม้ sell 0.06 เปิด 3580.01 TP 3522.00 · เหลือถึง TP เพียง 4.49 ดอลลาร์ (3526.49-3522.00) <= 5 และ = 7.7% ของระยะ TP-entry 58.01 · เข้าเงื่อนไขเสริม 2 ข้อ: RSI H1 27.76 < 30 และราคาชนแนวรับในแผน 3522.96/3526.75 (±3) · คำนวณ r_now ใหม่จากราคา OANDA 3526.49 = (3580.01-3526.49)/31.99 = +1.67R (ไฟล์สถานะ 17:18:58Z บอก 1.46R) · SL อยู่กันทุนที่ 3580.01 แล้ว ไม่มีความเสี่ยงขาดทุน · ไม่ซ้ำคำสั่งเดิม: last_action 16:47Z เป็น move_sl กันทุน ไม่ใช่ close · ใช้ close ไม่ใช่ set_tp เพราะเหลือระยะ < 4 ดอลลาร์ โบรกจะไม่รับ"
