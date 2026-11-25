@@ -1,15 +1,14 @@
 {
-  "generated_at": "2026-11-25T13:27:09Z",
+  "generated_at": "2026-11-25T13:30:28Z",
   "ea_build": "v1.25-news",
   "symbol": "XAUUSD.",
-  "bid": 3506.23, "ask": 3506.32,
-  "balance": 9932.46, "equity": 9932.46,
+  "bid": 3499.46, "ask": 3499.55,
+  "balance": 9932.46, "equity": 9938.70,
   "plan_generated_at": "2026-11-25T09:48:00Z",
-  "today": { "closed_pl": 0.00, "trades_opened": 0, "consec_losses": 1 },
-  "positions": [],
-  "pendings": [
-    { "ticket": 1260664964, "setup": "GPN 2026-11-25-pce S", "type": "sell_stop", "volume": 0.06, "price": 3500.16, "sl": 3516.46, "tp": 0.00 },
-    { "ticket": 1260664963, "setup": "GPN 2026-11-25-pce B", "type": "buy_stop", "volume": 0.04, "price": 3512.85, "sl": 3496.55, "tp": 0.00 }
+  "today": { "closed_pl": 0.00, "trades_opened": 1, "consec_losses": 1 },
+  "positions": [
+    { "ticket": 1260664964, "setup": "GPN 2026-11-25-pce S", "type": "sell", "volume": 0.06, "open_price": 3500.59, "open_time": "2026-11-25T13:30:28Z", "sl": 3516.46, "tp": 0.00, "initial_sl": 3516.46, "profit": 6.24, "r_now": 0.07, "sl_at_or_past_be": false }
   ],
+  "pendings": [],
   "last_action": "08:57Z 🎯 ย้าย TP #1260008620 3570.00 → 3577.00 — ข้อ B — เป้าเดิม 3570 อยู่ใต้โซนแนวรับที่ราคาเพิ่งเด้งกลับ 3 ครั้งในรอบ 8 ชม. (แท่ง H1 00:00Z low 3568.39 · 01:00Z low 3570.54 · 02:00Z low 3575.34) และตรงกับ SMA20 H1 3575.43 · ดึง TP เข้ามาไว้เหนือโซนนั้น 2 ดอลลาร์ = 3577.0 (ดึงเข้าเท่านั้น ไม่ขยาย) · ห่างราคาปัจจุบัน 3607.34 เป็นระยะ 30.34 ดอลลาร์ >= 4 โบรกรับได้ · r_now คำนวณใหม่จากราคา OANDA = (3630.16-3607.34)/32.84 = +0.70R · ไม่เข้าข้อ A (เหลือถึง TP เดิม 37.34 = 62% ของระยะ 60.16 ไม่ถึง 25%) · ไม่เข้าข้อ C (r_now เป็นบวก และ Summary H1 = Neutral ไม่ใช่ Strong buy) · ยังไม่ถึง 1.0R จึงไม่แตะ SL · ไม่ซ้ำคำสั่งเดิม last_action เป็น close ของ ticket อื่น"
 }
